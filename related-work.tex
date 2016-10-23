@@ -1,0 +1,94 @@
+\section{Related Work}
+Don’t Starve Together (DST) is a multiplayer wilderness survival game developed at Klei Entertainment, where the players must survive as long as they can.
+The players must face the harshness’s of a procedurally generated world that is actively trying to kill them, either by cooperating or competing with each other.
+Each game can last and indefinite amount of time which is only determined by the players’ ability to survive, the better you play the game, the longer you can last.
+
+Don’t Starve Together, released on April 21st of 2016, is the standalone multiplayer expansion of the uncompromising wilderness survival game Don’t Starve, also released by Klei on April 23rd of 2016.
+Both titles are available in several platforms ranging from PC’s to consoles and even mobile devices.
+By the end of 2013 the original title (Don’t Starve) sold over one million copies and, currently, there are almost 3.5 million owners of the game only on Steam.
+DST counts with over 4.6 million owners on Steam and has a daily peak of concurrent players of well over 5 thousand, reaching as high as 9 thousand concurrent players.
+
+The game counts with a developer maintained forum where the community interacts in creating mods or simply sharing their game experience.
+There is an active participation in the forums by Klei Entertainment staff, which help in problem solving for community developed mods, bug fixing the game, and sharing development notes on the game.
+Over twenty-five hundred mods are available for the game on the Steam Workshop which, alongside the easiness in creating mods, makes the creation of mods a simple and straight forward process.
+
+\subsection*{The Game}
+Before playing DST, the players must first choose a character from a list of different characters.
+Different characters have different characteristics and may be affected by the world in different ways (for example, WX-78 can eat spoiled food without penalties) and can even possess special items (such as Woodie’s axe, Lucy the Axe).
+Upon entering the world, the player has nothing in its inventory (except for character specific items, as referred earlier) and thus needs to start collecting resources in order to survive.
+
+During the game the player must pay attention to three different gauges that are shown in the heads-up display, which track Hunger, Sanity, and Health.
+The player dies (in DST the player actually becomes a ghost that can be revived by other players or by finding a Touch Stone) once his Health gauge reaches zero.
+Both Hunger and Sanity can cause the player to loose Health (Sanity doesn’t directly cause the player to loose Health, but the player will be attacked by creatures that appear due to the character’s paranoia).
+So it is important for the player to keep all three gauges in check in order to survive.
+There are another kind of gauges that the player must pay attention to when playing which arise from specific in game situations such as Wetness (caused by rains) or by characters’ special conditions such as Woodie’s Beaverness.
+
+Taking care of the character’s Hunger, Sanity, and Health will be the players main concern during gameplay.
+The player will accomplish this by collecting resources, crafting new items, cooking food, among other things (we will explore the player’s possible actions in full detail further on).
+
+\subsection*{The World}
+As mentioned earlier, the world is procedurally generated for each game and has several different biomes that provide different kinds of resources but also dangers for the player/agent.
+Bellow, I present a list of all the available biomes on DST:
+
+\begin{itemize}
+\item \textbf{Chess} this biome as an abundance of marble (a very rare material in the game), however it is protected by aggressive mobs;
+\item \textbf{Deciduous Forest} being a forest, this biome is a great source of wood but also fireflies and mushrooms;
+\item \textbf{Desert} can be a good source of grass and twigs (two of the most important resources on the game) but can also be very dangerous due to the Hound mob spawn points;
+\item \textbf{Forest} a very good source of wood but can also contain spiders;
+\item \textbf{Grassland} one of the safest biomes where the player can find a good variety of resources;
+\item \textbf{Graveyard} can contain many gold nuggets and can be hazardous free (occasionally, when digging graves, a ghost can spawn;
+\item \textbf{Marsh} commonly known as Swamp, is the harshest biome in the game, everything here will try and kill the player;
+\item \textbf{Mosaic} this biome typically appears only once per map, and is a mix of all other biomes with not so great resources;
+\item \textbf{Savana} the abundance of grass and mobs (passive mobs like Rabbits, Birds, and Beefaloes) make this biome the best for the player to settle.
+Although it can also become a dangerous place during the Beefaloes mating season where the mob becomes aggressive;
+\item \textbf{Rackyland} a barren biome that contains a lot of boulders but almost nothing else. It’s a common place for Tallbirds, an aggressive mob.
+\end{itemize}
+
+A normal world will also have caves that the player can descend to, but we will not discuss them here (to access caves in-game there is a need of a dedicated server in order for the game to generate them).
+
+The game has four seasons (Autumn, Winter, Summer, and Spring) that present different challenges during the course of the game.
+In Winter the temperature descends a lot and the character may freeze to death, the Spring rains may cause the characters to lose a lot of Sanity due to the constant wetness, among other effects specific to each season.
+
+From an agency point of view and according to Russel and Norvig’s (Russel and Norvig, 1995, p.46) classification of environments, DST is an inaccessible, non-deterministic, non-episodic, dynamic, and continuous environment.
+
+\begin{description}
+	\item \textbf{Inaccessible} In DST the environment is actually accessible through the scripts it natively provides to the modders, but in order to keep our agent in the same level of knowledge with the player, it will only have access to the same area as seen by the player in the screen
+	\item \textbf{Nondeterministic} The performance of a certain action in the world may not result in the expected result by the agent and therefore the environment is nondeterministic, e.g. when using the Crockpot (a cooking device) the result may not be what the agent expects due to the precedence of recipes
+	\item \textbf{Non-episodic} The world is a continuous flow of actions of the agent and reactions of the world and cannot be divided into well-defined episodes. 
+The agent will also have the need to plan for future actions (e.g. provisioning for the winter)
+	\item \textbf{Dynamic} During the deliberation process of the agent, the environment around him can change without direct interference from it, be it through the passing of time and therefore seasons, or be it by the aggressive and passive mobs that populate the world (e.g. Moleworms search for and eat flints, one of the most valuable resources in the game)
+	\item \textbf{Continuous} The agent has too many actions and percepts for the world to be considered discrete
+\end{description}
+
+As described above, the world in DST isn’t a trivial one and will therefore strongly influence our decisions when devising an architecture for the agent.
+
+Our aim is not only to build an agent that plays DST well, but one that does it socially.
+This provides a new set of challenges because the agent can’t simply play the game but has to do it in a way that players won’t lose interest in playing with him.
+Players will also expect to engage in some sort of social activity and therefore the agent must be able to engage in this activities.
+
+\subsection*{Agent Actions}
+In order to survive the players must keep Health, Sanity and Hunger in check.
+Hunger can be controlled by simply eating food.
+Health is lost when the player is attacked and regained when he/she eats certain types of foods.
+Sanity however is a little bit trickier.
+During the night most players will lose Sanity (Wendy will lose less sanity than other characters during night time), being around certain mobs will also cause characters to lose sanity, and also eating spoiled food.
+But there are also clothes that the player may wear to help regain Sanity, or food that the player may eat.
+
+There is a great variety of ways in which the game will try to defeat the player/agent, Therefore, the agent must do everything in its power to avoid dying (one of the main goals).
+This gives us the need to explore what is possible to do in the game and what the agent must know how to do in order to survive.
+
+\begin{description}
+	\item \textbf{Collecting} One of the first activities in which the agent must rely upon.
+This is the act by which the agent will acquire the first items that will provide him with the necessary tools to survive in the first few days of the game.
+	\item \textbf{Exploring} The agent will undoubtedly need to explore the world in order to find every resource that it needs to survive.
+	\item \textbf{Crafting} From tools to clothes, the agent will need to know all available items and its functions in order to better face the world.
+	\item \textbf{Prototyping} Not all items will be available for crafting upon the beginning of the game.
+The agent must know that some items (the majority of them) need to be prototyped before they can be freely crafted.
+	\item \textbf{Fighting} Not everything the player needs to survive can be achieved by collecting items available in the world.
+There is also the case in which the agent needs to defend himself.
+	\item \textbf{Settling} There comes a point in the game that the agent will need to choose a place in which to settle in order to survive, planting farms and placing traps are a part of the process.
+\end{description}
+
+Unfortunately, the agent won’t engage in this activities one at the time.
+The agent may need certain tools that he still doesn’t know how to craft in order to collect some valuable resource.
+It will need to explore the world to collect the specific components to prototype that tool so he can collect the valuable resource.
