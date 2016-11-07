@@ -1,34 +1,57 @@
 \section{Related Work}
-Don’t Starve Together (DST) is a multiplayer wilderness survival game developed at Klei Entertainment, where the players must survive as long as they can.
-The players must face the harshness’s of a procedurally generated world that is actively trying to kill them, either by cooperating or competing with each other.
-Each game can last and indefinite amount of time which is only determined by the players’ ability to survive, the better you play the game, the longer you can last.
+\gls{dst} is a multiplayer wilderness survival game developed at Klei Entertainment, where the players must survive as long as they can.
+The players must face the harshnesses of a procedurally generated world that is actively trying to kill them, either by cooperating or competing with each other.
+Each game can last and indefinite amount of time which is only determined by the players' ability to survive, the better you play the game, the longer you can last.
 
-Don’t Starve Together, released on April 21st of 2016, is the standalone multiplayer expansion of the uncompromising wilderness survival game Don’t Starve, also released by Klei on April 23rd of 2013.
-Both titles are available in several platforms ranging from PC’s to consoles and even mobile devices.
-By the end of 2013 the original title (Don’t Starve) sold over one million copies and, currently, there are almost 3.5 million owners of the game only on Steam.
+Don't Starve Together, released on April 21st of 2016, is the standalone multiplayer expansion of the uncompromising wilderness survival game Don't Starve, also released by Klei on April 23rd of 2013.
+Both titles are available in several platforms ranging from PC's to consoles and even mobile devices.
+By the end of 2013 the original title (Don't Starve) sold over one million copies and, currently, there are almost 3.5 million owners of the game only on Steam.
 DST counts with over 4.6 million owners on Steam and has a daily peak of concurrent players of well over 5 thousand, reaching as high as 9 thousand concurrent players.
 
 The game counts with a developer maintained forum where the community interacts in creating mods or simply sharing their game experience.
 There is an active participation in the forums by Klei Entertainment staff, which help in problem solving for community developed mods, bug fixing the game, and sharing development notes on the game.
 Over twenty-five hundred mods are available for the game on the Steam Workshop which, alongside the easiness in creating mods, makes the creation of mods a simple and straight forward process.
 
-\subsection*{The Game}
-Before playing DST, the players must first choose a character from a list of different characters.
-Different characters have different characteristics and may be affected by the world in different ways (for example, WX-78 can eat spoiled food without penalties) and can even possess special items (such as Woodie’s axe, Lucy the Axe).
+\subsection{The Game}
+Before playing \gls{dst}, the players must first choose a character from a list of different characters.
+Different characters have different characteristics and may be affected by the world in different ways (for example, WX-78 can eat spoiled food without penalties) and can even possess special items (such as Woodie's axe, \textit{Lucy the Axe}).
 Upon entering the world, the player has nothing in its inventory (except for character specific items, as referred earlier) and thus needs to start collecting resources in order to survive.
 
 During the game the player must pay attention to three different gauges that are shown in the heads-up display, which track Hunger, Sanity, and Health.
-The player dies (in DST the player actually becomes a ghost that can be revived by other players or by finding a Touch Stone) once his Health gauge reaches zero.
-Both Hunger and Sanity can cause the player to loose Health (Sanity doesn’t directly cause the player to loose Health, but the player will be attacked by creatures that appear due to the character’s paranoia).
+The player dies (in \gls{dst} the player actually becomes a ghost that can be revived by other players or by finding a Touch Stone) once his Health gauge reaches zero.
+Both Hunger and Sanity can cause the player to loose Health (Sanity doesn't directly cause the player to loose Health, but the player will be attacked by creatures that appear due to the character's paranoia).
+
 So it is important for the player to keep all three gauges in check in order to survive.
-There are another kind of gauges that the player must pay attention to when playing which arise from specific in game situations such as Wetness (caused by rains) or by characters’ special conditions such as Woodie’s Beaverness.
+The player will also need to take attention to the Wetness gauge which is caused by rains. Wetness will cause the items to loose efficiency and by using wet items the user will lose Sanity over time.
+The player must also be aware of the temperature of his character as it can cause damage. Both extreme hot and extreme cold will cause the player to continuously loose Health.
+Of note there is also characters' special conditions such as Woodie's Beaverness, which will cause the character to change into a Werebeaver should the gauge reach unwanted values.
 
-Taking care of the character’s Hunger, Sanity, and Health will be the players main concern during gameplay.
-The player will accomplish this by collecting resources, crafting new items, cooking food, among other things (we will explore the player’s possible actions in full detail further on).
+Taking care of the character's Hunger, Sanity, and Health will be the players main concern during gameplay.
+The player will accomplish this by collecting resources, crafting new items, cooking food, among other things (we will explore the player's possible actions in full detail further on).
 
-\subsection*{The World}
-As mentioned earlier, the world is procedurally generated for each game and has several different biomes that provide different kinds of resources but also dangers for the player/agent.
-Bellow, I present a list of all the available biomes on DST:
+\subsubsection{The World}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=\textwidth]{world-map}
+  \caption{Example of a generated map of \gls{dst}.}
+  \label{fig:world-map}
+\end{figure}
+As mentioned earlier, the world is procedurally generated for each game and has several different biomes that provide different kinds of resources but also dangers for the player/agent. 
+We'll present and describe these biomes later on.
+
+The world is surrounded by water and is, in many cases, composed by several peninsulas which can be composed by one or several biomes, as can be seen in Fig. \ref{fig:world-map}.
+It's also common to see the formation of lakes inside the main portion of land.
+
+During gameplay, time will pass not only in a night and day cycle but also across seasons.
+The game has four seasons (Autumn, Winter, Summer, and Spring) that present different challenges during the course of the game.
+In Winter the temperature descends a lot, while in Summer it rises causing the player to take damage over time due to extreme temperatures.
+In Spring the rains will increase Wetness which will have the effects 
+Autumn is by far the friendlier season, with mild temperatures and occasional rains, making it the perfect candidate for the starting season (unless the player specifies otherwise).
+
+A normal world will also have caves that the players can descend to, but we will not discuss them here (to access caves in-game there is a need of a dedicated server for the game to generate them).
+
+Moving on to the specifics of each biome, we'll now explore a list of all the available biomes on \gls{dst} and a brief description for each of them:
 
 \begin{itemize}
 \item \textbf{Chess} this biome as an abundance of marble (a very rare material in the game), however it is protected by aggressive mobs;
@@ -36,38 +59,42 @@ Bellow, I present a list of all the available biomes on DST:
 \item \textbf{Desert} can be a good source of grass and twigs (two of the most important resources on the game) but can also be very dangerous due to the Hound mob spawn points;
 \item \textbf{Forest} a very good source of wood but can also contain spiders;
 \item \textbf{Grassland} one of the safest biomes where the player can find a good variety of resources;
-\item \textbf{Graveyard} can contain many gold nuggets and can be hazardous free (occasionally, when digging graves, a ghost can spawn;
+\item \textbf{Graveyard} can contain many gold nuggets and can be hazardous free (occasionally, when digging graves, a ghost can spawn);
 \item \textbf{Marsh} commonly known as Swamp, is the harshest biome in the game, everything here will try and kill the player;
 \item \textbf{Mosaic} this biome typically appears only once per map, and is a mix of all other biomes with not so great resources;
-\item \textbf{Savana} the abundance of grass and mobs (passive mobs like Rabbits, Birds, and Beefaloes) make this biome the best for the player to settle.
+\item \textbf{Savanna} the abundance of grass and mobs (passive mobs like Rabbits, Birds, and Beefaloes) make this biome the best for the player to settle.
 Although it can also become a dangerous place during the Beefaloes mating season where the mob becomes aggressive;
-\item \textbf{Rackyland} a barren biome that contains a lot of boulders but almost nothing else. It’s a common place for Tallbirds, an aggressive mob.
+\item \textbf{Rockyland} a barren biome that contains a lot of boulders but almost nothing else. It’s a common place for Tallbirds, an aggressive mob.
 \end{itemize}
 
-A normal world will also have caves that the player can descend to, but we will not discuss them here (to access caves in-game there is a need of a dedicated server in order for the game to generate them).
+The knowledge of each of this biomes will differentiate good players from expert players, as it can strongly influence their success.
+Players must know where to look what they need, where to settle, places to avoid, among others.
 
-The game has four seasons (Autumn, Winter, Summer, and Spring) that present different challenges during the course of the game.
-In Winter the temperature descends a lot and the character may freeze to death, the Spring rains may cause the characters to lose a lot of Sanity due to the constant wetness, among other effects specific to each season.
-
-From an agency point of view and according to Russel and Norvig’s (Russel and Norvig, 1995, p.46) classification of environments, DST is an inaccessible, non-deterministic, non-episodic, dynamic, and continuous environment.
+For the remainder of this section, we'll explore the environment of \gls{dst} which we just described in a more formal way, by looking at it from an agency point of view.
+According to Russel and Norvig's (Russel and Norvig, 1995, p.46) classification of environments, \gls{dst} is an inaccessible, non-deterministic, non-episodic, dynamic, and continuous environment.
 
 \begin{description}
-	\item \textbf{Inaccessible} In DST the environment is actually accessible through the scripts it natively provides to the modders, but in order to keep our agent in the same level of knowledge with the player, it will only have access to the same area as seen by the player in the screen
+	\item \textbf{Inaccessible} In \gls{dst} the environment is actually accessible through the scripts it natively provides to the modders and every entity is directly accessible for the agent. Despite this, we've decided to limit the accessibility of the environment to keep the agent in the same level of knowledge with the player, therefore, it will only have access to the same area as seen by the player in the screen.
 	\item \textbf{Nondeterministic} The performance of a certain action in the world may not result in the expected result by the agent and therefore the environment is nondeterministic, e.g. when using the Crockpot (a cooking device) the result may not be what the agent expects due to the precedence of recipes
-	\item \textbf{Non-episodic} The world is a continuous flow of actions of the agent and reactions of the world and cannot be divided into well-defined episodes. 
-The agent will also have the need to plan for future actions (e.g. provisioning for the winter)
+	\item \textbf{Episodic} Although the world is in a continuous flow and cannot really be divided into well defined episodes, we can consider it an episodic environment. 
+	Due to the continuous passage of time, day after day and season after season, the player will have to overcome recurring problems, e.g. each night the player cannot stay in complete darkness because it will be attacked by Charlie (the antagonist of \gls{dst}) and each Winter the player will need to prepare itself in advance to endure the cold and the scarcity of resources.
 	\item \textbf{Dynamic} During the deliberation process of the agent, the environment around him can change without direct interference from it, be it through the passing of time and therefore seasons, or be it by the aggressive and passive mobs that populate the world (e.g. Moleworms search for and eat flints, one of the most valuable resources in the game)
 	\item \textbf{Continuous} The agent has too many actions and percepts for the world to be considered discrete
 \end{description}
 
-As described above, the world in DST isn’t a trivial one and will therefore strongly influence our decisions when devising an architecture for the agent.
+As described above, the world in \gls{dst} isn't a trivial one and will therefore strongly influence our decisions when devising an architecture for the agent.
 
-Our aim is not only to build an agent that plays DST well, but one that does it socially.
-This provides a new set of challenges because the agent can’t simply play the game but has to do it in a way that players won’t lose interest in playing with him.
+Our aim is not only to build an agent that plays \gls{dst} well, but one that does it socially.
+This provides a new set of challenges because the agent can't simply play the game but has to do it in a way that players won't lose interest in playing with him.
 Players will also expect to engage in some sort of social activity and therefore the agent must be able to engage in this activities.
 
-\subsection*{Agent Actions}
-In order to survive the players must keep Health, Sanity and Hunger in check.
+\subsubsection{Player Actions}
+In order to survive the players must keep Health, Sanity and Hunger in check, as described before.
+To achieve this, players must collect resources, craft weapons, tools, and equipments, fight, and find a home.
+For the remainder of this section we'll explore, in a general view, what does a player do when playing \gls{dst}.
+This will allow us to identify what sort of actions our agent will perform and group them into specific problems.
+Before the end of the section, we'll have a comprehensive view of the problem which will allow us to better understand how can we solve it.
+
 Hunger can be controlled by eating food.
 Health is lost when the player is attacked and regained when he/she eats certain types of foods.
 Sanity however is a little bit trickier.
@@ -89,6 +116,6 @@ There is also the case in which the agent needs to defend himself.
 	\item \textbf{Settling} There comes a point in the game that the agent will need to choose a place in which to settle in order to survive, planting farms and placing traps are a part of the process.
 \end{description}
 
-Unfortunately, the agent won’t engage in this activities one at the time.
-The agent may need certain tools that he still doesn’t know how to craft in order to collect some valuable resource.
+Unfortunately, the agent won't engage in this activities one at the time.
+The agent may need certain tools that he still doesn't know how to craft in order to collect some valuable resource.
 It will need to explore the world to collect the specific components to prototype that tool so he can collect the valuable resource.
