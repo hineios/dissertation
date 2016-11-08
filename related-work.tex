@@ -71,15 +71,20 @@ The knowledge of each of this biomes will differentiate good players from expert
 Players must know where to look what they need, where to settle, places to avoid, among others.
 
 For the remainder of this section, we'll explore the environment of \gls{dst} which we just described in a more formal way, by looking at it from an agency point of view.
-According to Russel and Norvig's (Russel and Norvig, 1995, p.46) classification of environments, \gls{dst} is an inaccessible, non-deterministic, non-episodic, dynamic, and continuous environment.
+According to Russel and Norvig's (Russel and Norvig, 1995, p.46) classification of environments, \gls{dst} is a partially observable, multiagent, stochastic, episodic, dynamic, continuous, and known environment.
 
 \begin{description}
-	\item \textbf{Inaccessible} In \gls{dst} the environment is actually accessible through the scripts it natively provides to the modders and every entity is directly accessible for the agent. Despite this, we've decided to limit the accessibility of the environment to keep the agent in the same level of knowledge with the player, therefore, it will only have access to the same area as seen by the player in the screen.
-	\item \textbf{Nondeterministic} The performance of a certain action in the world may not result in the expected result by the agent and therefore the environment is nondeterministic, e.g. when using the Crockpot (a cooking device) the result may not be what the agent expects due to the precedence of recipes
+	\item \textbf{Partially observable} In \gls{dst} the environment is actually fully observable through the scripts it natively provides to the modders and every entity is directly accessible for the agent. Despite this, we've decided to limit the observability of the environment to keep the agent in the same level of knowledge with the player, therefore, it will only have access to the same area as seen by the player in the screen.
+	\item \textbf{Multiagent} As said before, our goal is to make a social agent that plays \gls{dst}.
+	As implied by the social component, there will be other agents involved. 
+	In this case only a single human agent will be interacting with our agent.
+	\item \textbf{Stochastic} During the game spontaneous rains can occur, meteors can fall from the skies, and even lightning strikes can set the players crops ablaze. 
+	This all happens randomly and the agent will need to act accordingly in order to survive.
 	\item \textbf{Episodic} Although the world is in a continuous flow and cannot really be divided into well defined episodes, we can consider it an episodic environment. 
 	Due to the continuous passage of time, day after day and season after season, the player will have to overcome recurring problems, e.g. each night the player cannot stay in complete darkness because it will be attacked by Charlie (the antagonist of \gls{dst}) and each Winter the player will need to prepare itself in advance to endure the cold and the scarcity of resources.
 	\item \textbf{Dynamic} During the deliberation process of the agent, the environment around him can change without direct interference from it, be it through the passing of time and therefore seasons, or be it by the aggressive and passive mobs that populate the world (e.g. Moleworms search for and eat flints, one of the most valuable resources in the game)
-	\item \textbf{Continuous} The agent has too many actions and percepts for the world to be considered discrete
+	\item \textbf{Continuous} In \gls{dst} time passes continuously without interruptions and even actions take time to achieve, e.g. when collecting resources there is an associated animation that must be completed for the agent to effectively receive the resources.
+	\item \textbf{Known} The laws that rule \gls{dst} are all known to the agent and therefore the outcome for every action is known.
 \end{description}
 
 As described above, the world in \gls{dst} isn't a trivial one and will therefore strongly influence our decisions when devising an architecture for the agent.
