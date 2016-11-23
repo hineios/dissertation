@@ -1,4 +1,4 @@
-\documentclass{llncs}
+\documentclass[a4paper]{llncs}
 
 \usepackage[utf8]{inputenc}
 
@@ -7,8 +7,21 @@
 
 \usepackage[acronym]{glossaries}
 \newacronym{dst}{DST}{Don't Starve Together}
-\begin{document}
 
+% Page format
+\usepackage{geometry}
+\geometry{
+	a4paper,         % or letterpaper
+	textwidth=15cm,  % llncs has 12.2cm
+	textheight=24cm, % llncs has 19.3cm
+	heightrounded,   % integer number of lines
+	hratio=1:1,      % horizontally centered
+	%vratio=2:3,      % not vertically centered
+	vratio=1:1,
+}
+
+
+\begin{document}
 
 \title{Cooperative AI for Don't Starve Together}
 \author{Fábio Almeida\inst{1}}
