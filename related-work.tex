@@ -1,177 +1,19 @@
 \section{Related Work}
-\gls{dst} is a multiplayer wilderness survival game developed at Klei Entertainment, where the players must survive as long as they can.
-The players must face the harshnesses of a procedurally generated world that is actively trying to kill them, either by cooperating or competing with each other.
-Each game can last and indefinite amount of time which is only determined by the players' ability to survive, the better you play the game, the longer you can last.
+Explain how there are two components for the agent, the social component and the survival component.
+They may influence each other? Are they really separated?
 
-Don't Starve Together, released on April 21st of 2016, is the standalone multiplayer expansion of the uncompromising wilderness survival game Don't Starve, also released by Klei on April 23rd of 2013 (check Fig. \ref{fig:don't-starve-together-poster}).
-Both titles are available in several platforms ranging from PC's to consoles and even mobile devices.
-By the end of 2013 the original title (Don't Starve) sold over one million copies and, currently, there are almost 3.5 million owners of the game only on Steam.
-DST counts with over 4.6 million owners on Steam and has a daily peak of concurrent players of well over 5 thousand, reaching as high as 9 thousand concurrent players.
+\subsection{Background}
+Talk about Game AI and the most common used techniques in the field (Behaviour Trees, etc) and why are they used.
+It will help limit the approach we'll use since we can rule out models that are to time consuming (for example) as we need a real time approach
 
-\begin{figure}
-  \centering
-    \includegraphics[width=\textwidth]{dont-starve-together-poster}
-  \caption{Don't Starve Together poster with all original characters.}
-  \label{fig:don't-starve-together-poster}
-\end{figure}
+\subsection{State of the Art}
+Rule out models/techniques that do not conform to our requirements (to slow, to "heavy", not adequate for our problem)
 
-The game counts with a developer maintained forum where the community interacts in creating mods or simply sharing their game experience.
-There is an active participation in the forums by Klei Entertainment staff, which help in problem solving for community developed mods, bug fixing the game, and sharing development notes on the game.
-Over twenty-five hundred mods are available for the game on the Steam Workshop which, alongside the easiness in creating mods, makes the creation of mods a simple and straight forward process.
-
-\subsection{The Game}
-Before playing \gls{dst}, the players must first choose a character from a list of different characters.
-Different characters have different characteristics and may be affected by the world in different ways (for example, WX-78 can eat spoiled food without penalties) and can even possess special items (such as Woodie's axe, \textit{Lucy the Axe}).
-Upon entering the world, the player has nothing in its inventory (except for character specific items, as referred earlier) and thus needs to start collecting resources in order to survive.
-
-During the game the player must pay attention to three different gauges that are shown in the heads-up display, which track Hunger, Sanity, and Health.
-The player dies (in \gls{dst} the player actually becomes a ghost that can be revived by other players or by finding a Touch Stone) once his Health gauge reaches zero.
-Both Hunger and Sanity can cause the player to loose Health (Sanity doesn't directly cause the player to loose Health, but the player will be attacked by creatures that appear due to the character's paranoia).
-
-So it is important for the player to keep all three gauges in check in order to survive.
-The player will also need to take attention to the Wetness gauge which is caused by rains. Wetness will cause the items to loose efficiency and by using wet items the user will lose Sanity over time.
-The player must also be aware of the temperature of his character as it can cause damage. Both extreme hot and extreme cold will cause the player to continuously loose Health.
-Of note there is also characters' special conditions such as Woodie's Beaverness, which will cause the character to change into a Werebeaver should the gauge reach unwanted values.
-
-Taking care of the character's Hunger, Sanity, and Health will be the players main concern during gameplay.
-The player will accomplish this by collecting resources, crafting new items, cooking food, among other things (we will explore the player's possible actions in full detail further on).
-
-\subsubsection{The World}
-
-\begin{figure}
-  \centering
-    \includegraphics[width=\textwidth]{world-map}
-  \caption{Example of a generated map of \gls{dst}.}
-  \label{fig:world-map}
-\end{figure}
-As mentioned earlier, the world is procedurally generated for each game and has several different biomes that provide different kinds of resources but also dangers for the player/agent. 
-We'll present and describe these biomes later on.
-
-The world is surrounded by water and is, in many cases, composed by several peninsulas which can be composed by one or several biomes, as can be seen in Fig. \ref{fig:world-map}.
-It's also common to see the formation of lakes inside the main portion of land.
-
-During gameplay, time will pass not only in a night and day cycle but also across seasons.
-The game has four seasons (Autumn, Winter, Summer, and Spring) that present different challenges during the course of the game.
-In Winter the temperature descends a lot, while in Summer it rises causing the player to take damage over time due to extreme temperatures.
-In Spring the rains will increase Wetness which will have the effects 
-Autumn is by far the friendlier season, with mild temperatures and occasional rains, making it the perfect candidate for the starting season (unless the player specifies otherwise).
-
-A normal world will also have caves that the players can descend to, but we will not discuss them here (to access caves in-game there is a need of a dedicated server for the game to generate them).
-
-Moving on to the specifics of each biome, we'll now explore a list of all the available biomes on \gls{dst} and a brief description for each of them:
-
+\subsection{Related Work}
 \begin{itemize}
-\item \textbf{Chess} this biome as an abundance of marble (a very rare material in the game), however it is protected by aggressive mobs;
-\item \textbf{Deciduous Forest} being a forest, this biome is a great source of wood but also fireflies and mushrooms;
-\item \textbf{Desert} can be a good source of grass and twigs (two of the most important resources on the game) but can also be very dangerous due to the Hound mob spawn points;
-\item \textbf{Forest} a very good source of wood but can also contain spiders;
-\item \textbf{Grassland} one of the safest biomes where the player can find a good variety of resources;
-\item \textbf{Graveyard} can contain many gold nuggets and can be hazardous free (occasionally, when digging graves, a ghost can spawn);
-\item \textbf{Marsh} commonly known as Swamp, is the harshest biome in the game, everything here will try and kill the player;
-\item \textbf{Mosaic} this biome typically appears only once per map, and is a mix of all other biomes with not so great resources;
-\item \textbf{Savanna} the abundance of grass and mobs (passive mobs like Rabbits, Birds, and Beefaloes) make this biome the best for the player to settle.
-Although it can also become a dangerous place during the Beefaloes mating season where the mob becomes aggressive;
-\item \textbf{Rockyland} a barren biome that contains a lot of boulders but almost nothing else. It’s a common place for Tallbirds, an aggressive mob.
+	\item Social Agents: what are they? How are they defined? how are they doing it? What about in games?
+	\item Communication: what level of communication is needed to achieve a social agent? (should I approach this in it's own section? or should it be integrated in the previous one?)
+	\item Playing: how do we make the agent a good player? it should be clear that we need a good playing agent based on the Social Agent part (a bad playing agent will get boring and players will lose interest in it)
 \end{itemize}
 
-The knowledge of each of this biomes will differentiate good players from expert players, as it can strongly influence their success.
-Players must know where to look what they need, where to settle, places to avoid, among others.
-
-For the remainder of this section, we'll explore the environment of \gls{dst} which we just described in a more formal way, by looking at it from an agency point of view.
-
-According to Russel and Norvig's (Russel and Norvig, 1995, p.46) classification of environments, \gls{dst} is a partially observable, multiagent, stochastic, episodic, dynamic, continuous, and known environment.
-
-\begin{description}
-	\item \textbf{Partially observable} In \gls{dst} the environment is actually fully observable through the scripts it natively provides to the modders and every entity is directly accessible for the agent. Despite this, we've decided to limit the observability of the environment to keep the agent in the same level of knowledge with the player, therefore, it will only have access to the same area as seen by the player in the screen.
-	\item \textbf{Multiagent} Our goal is to make a social agent that plays \gls{dst}.
-	As implied by the social component, there will be other agents involved. 
-	In this case only a single human agent will be interacting with our agent.
-	\item \textbf{Stochastic} During the game spontaneous rains can occur, meteors can fall from the skies, and even lightning strikes can set the players crops ablaze. 
-	This all happens randomly and the agent will need to act accordingly in order to survive.
-	\item \textbf{Episodic} Although the world is in a continuous flow and cannot really be divided into well defined episodes, we can consider it an episodic environment. 
-	Due to the continuous passage of time, day after day and season after season, the player will have to overcome recurring problems, e.g. each night the player cannot stay in complete darkness because it will be attacked by Charlie (the antagonist of \gls{dst}) and each Winter the player will need to prepare itself in advance to endure the cold and the scarcity of resources.
-	\item \textbf{Dynamic} During the deliberation process of the agent, the environment around him can change without direct interference from it, be it through the passing of time and therefore seasons, or be it by the aggressive and passive mobs that populate the world (e.g. Moleworms search for and eat flints, one of the most valuable resources in the game)
-	\item \textbf{Continuous} In \gls{dst} time passes continuously without interruptions and even actions take time to achieve, e.g. when collecting resources there is an associated animation that must be completed for the agent to effectively receive the resources.
-	\item \textbf{Known} The laws that rule \gls{dst} are all known to the agent and therefore the outcome for every action is known.
-\end{description}
-
-As described above, the world in \gls{dst} isn't a trivial one and will therefore strongly influence our decisions when devising an architecture for the agent.
-
-Our aim is not only to build an agent that plays \gls{dst} well, but one that does it socially.
-This provides a new set of challenges because the agent can't simply play the game but has to do it in a way that players won't lose interest in playing with him.
-Players will also expect to engage in some sort of social activity and therefore the agent must be able to engage in this activities.
-
-\subsubsection{Gameplay}
-In order to survive the players must keep Health, Sanity and Hunger in check, as described before.
-To achieve this, players must collect resources, craft weapons, tools, and equipments, fight, and find a home.
-For the remainder of this section we'll explore, in a general view, what does a player do when playing \gls{dst}.
-This will allow us to identify what sort of actions our agent will perform and group them into specific problems.
-Before the end of the section, we'll have a comprehensive view of the problem which will allow us to better understand how can we solve it.
-
-The first few days in \gls{dst} are the most crucial ones.
-Players will usually collect flint and twigs, used in the construction of tools like axes and pickaxes, in order to collect logs (to build a fire) and gold nuggets (very important for prototyping new tools and weapons).
-Finding food is of the utmost importance. 
-Players usually rely on berries and carrots, which can be easily caught during the first days.
-Collecting cut grass is also of the most importance given that the players will need to build traps in order to keep stockpiling food.
-
-Along with all the collecting, players must explore the world, with the intent of finding a resource filled area where they will later set up a base camp.
-Usually, by the end of the fifth day, players will have found a suitable place to build a base camp and will have found at least a gold nugget.
-
-In the beginning, players will only have the knowledge to craft basic tools and equipment, e.g. axes, pickaxes, hammers, Grass Suits (armour), Straw Hats, among others, in a total of fifteen recipes.
-By building a Science Machine, which will consume a gold nugget, players will be able to prototype new items, thus learning the recipes for them.
-After prototyping a new item, players are able to freely craft that item, given that they have the required materials.
-As the game progresses, players learn up to a total of over one hundred and fifty recipes.
-
-\begin{figure}
-  \centering
-    \includegraphics[width=\textwidth]{fishing}
-  \caption{Wilson fishing in a Pond.}
-  \label{fig:fishing}
-\end{figure}
-
-As for the base camp, players tend to find places which can provide great quantities of meat since it will be the base of the players diet after the first few days.
-Rabbit holes and Ponds are usually good places, as every day they spawn Rabbit and Frogs, respectively.
-Additionally, ponds can be harvested with a Fishing Rod in order to collect fishes (Fig. \ref{fig:fishing}), that once cooked in a Crock Pot will provide a good Health regenerative.
-Another important factor in the choosing of a base is the proximity to manure, a must have resource for the building of farms.
-
-As the time passes and players start to have a steady supply of food items, the tendency is to start relocating other resources to make them more accessible.
-Most players will dig up Grass Tufts, Sapplings, and Berry Bushes (they provide Grass, Twigs, and Berries, respectively) and plant them near the base camp, as seen in Fig. \ref{fig:basecamp-example}.
-This will greatly increase a players collecting rate as all will be concentrated in an area around the players camp, whereas the natural occurrence of such resources is usually sparse (occasionally, Berry Bushes and Grass Tufts will spawn in small clusters of nine elements near Pig Villages).
-However, the relocation of Grass Tufts and Berry Bushes is usually troublesome as they require to be fertilized (using manure) in order to regrow.
-
-\begin{figure}
-  \centering
-    \includegraphics[width=\textwidth]{basecamp-example}
-  \caption{An example of a base camp.}
-  \label{fig:basecamp-example}
-\end{figure}
-
-In order to feed themselves, players use the Crock Pot to cook the food.
-Crock Pots allow the elaboration of dishes that have several beneficial characteristics.
-They can restore Hunger, Health and Sanity, with different dishes having different values, e.g. Fish Sticks restore a lot of Health but don't restores as much Hunger while the Meaty stew does the opposite.
-For the cooking of dishes players use meats and vegetables.
-The later is often obtain from farms, hence their presence in a players' base camp.
-
-The base camp will usually be composed by a Science Machine or an Alchemy Engine (an improved version of the Science Machine), Farms, Drying Racks (used to dry meat which can them be stored for a longer period), Crock Pots, Chests (used to store items), clusters of Tress, Grass Tufts, and Saplings, and one or more Firepits.
-
-As said before, if players stand in complete darkness for too much time, Charlie, the antagonist of the game, will attack and kill the player.
-By standing next to a source of light, like a Firepit, the player avoids being attacked by Charlie.
-In Winter, the Firepit will provide the player with heat in order to resist the cold which can, otherwise, kill the the player.
-
-Now we can define which activities the player/agent engages while playing \gls{dst}.
-
-\begin{description}
-	\item \textbf{Collecting} One of the first activities in which the agent must rely upon.
-This is the act by which the agent will acquire the first items that will provide him with the necessary tools to survive in the first few days of the game.
-	\item \textbf{Exploring} The agent will need to explore the world in order to find every resource that it needs to survive.
-	It'll also need to find a suitable place to set up a base camp.
-	\item \textbf{Prototyping} Not all items will be available for Crafting or Building upon the beginning of the game.
-	The agent must know that some items (the majority of them) need to be prototyped before they can be freely crafted.
-	\item \textbf{Crafting} From tools to weapons and from clothes to armour, the agent will need to know all available items and its functions in order to better face the world.
-	\item \textbf{Building} Similar to Crafting, but requires the player to place the structure in the world.
-	\item \textbf{Fighting} The player will need to defend himself and even go on a hunt for resources.
-	\item \textbf{Settling} Building up a base camp is a complex process which requires several steps.
-	A good camp will help the player to survive the environment and it's hazardous conditions.
-	\item \textbf{Socializing} As multiplayer game, players interact with each other, either by collaborating or competing.
-\end{description}
-
+\subsection{Discussion}
