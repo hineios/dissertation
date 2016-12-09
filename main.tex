@@ -1,15 +1,33 @@
 \documentclass[a4paper]{llncs}
 
+%%Allows the use of portuguese characters
 \usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%ensure that quoted texts are typeset according to the rules of your main language
+\usepackage{csquotes}
 
+%% Package to use images
 \usepackage{graphicx}
 \graphicspath{ {img/} }
 
-\usepackage[acronym]{glossaries}
-\newacronym{dst}{DST}{Don't Starve Together}
+\usepackage[printonlyused]{acronym}
+
+%% References and stuff
+\usepackage[backend=bibtex,style=splncs]{biblatex}
+\bibliography{references}
+
 
 % This adds numbering to subsubsections
 \setcounter{secnumdepth}{5}
+
+% This overrides the settings of the llncs class and displays the ToC
+\setcounter{tocdepth}{3}
+
+% This prevents the document title and the author from being part of the ToC
+\makeatletter
+\renewcommand*\l@author[2]{}
+\renewcommand*\l@title[2]{}
+\makeatletter
 
 % Page format
 \usepackage{geometry}
@@ -27,8 +45,9 @@
 \begin{document}
 
 \title{Cooperative AI for Don't Starve Together}
-\author{Fábio Almeida\inst{1}}
+\author{Fábio Vieira de Almeida}
 \institute{Instituto Superior Técnico}
+\thispagestyle{plain}
 %\email{fabio.vieira.almeida@tecnico.ulisboa.pt}
 
 \maketitle
@@ -37,8 +56,14 @@
 To be filled.
 \end{abstract}
 
+\tableofcontents
+\newpage
+
 \input{introduction.tex}
 \input{related-work.tex}
 \input{solution-proposal.tex}
+
+\printbibliography
+\include{acronyms}
 
 \end{document}
