@@ -1,19 +1,65 @@
 \section{Related Work}
-Explain how there are two components for the agent, the social component and the survival component.
-They may influence each other? Are they really separated?
 
 \subsection{Social Agents}
-What are they? How are they defined? how are they doing it? What about in games?
-Present different techniques and models and rule out those that don't meet our needs
+Agents represent a highly interdisciplinary field with influences and applications in several diverse areas such as economics, philosophy, logic, ecology, social science and computer science \cite{wooldridge:multiagent-systems}.
+It's expectable that such a diverse field might have no universally accepted definition \cite{wooldridge:intelligentagents}.
+
+For the remainder of this section I'll, firstly, present a definition for what an Agent is and also see the notion of an intelligent agent.
+Then, a simple classification of agents is also presented.
+I'll then continue on analysing what makes an agent social.
+Finally, I'll move on into analysing some social agent's architectures.
+By the end of this section it should be clear what requirements our agent must comply to in order to be called a social agent.
+
+\subsubsection{Agents}
+According to \cite{russell&norvig:aima}, an agent is \textit{"anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators"}.
+Humans can be considered agents and so can computers.
+We perceive our environment through our five senses (hearing, sight, touch, smell, and taste) and act upon it through our arms, hands, voice, etc. causing changes in the environment.
+Computer programs perceive their environment through keystrokes, file contents, and network packets and act on the environment by displaying on the screen, writing files, and outputting music to the speakers, among many other sensors and actuators.
+
+However there is a clear difference between a human being and a Unix daemon.
+We do not usually think of Unix daemons as intelligent agents (although we might consider them agents).
+As another example, even a light switch can be described as a very cooperative agent that invariably transmits electricity when we want it to do so; flicking the switch is the way we communicate our desire \cite{shoham:agentorientedprogramming}.
+This example may sound absurd, but it is logical.
+
+However, and following Shoham rationale in \cite{shoham:agentorientedprogramming}, considering the light bulb an agent, "\textit{does not buy us anything, since we essentially understand the mechanism sufficiently to have a simpler, mechanistic description of its behaviour}".
+Therefore, it is important to understand what are intelligent agents and part from this general view of considering almost everything an agent.
+
+In \cite{wooldridge:multiagent-systems}, Wooldridge identifies a list of capabilities that an intelligent agent is expected to possess.
+
+\begin{description}
+	\item[Reactivity] Intelligent agents must be able to respond in a timely fashion to changes in their environments.
+	The environment may change while the agent is following a certain procedure, be it by the presence of other agents or by the characteristics of the environment.
+	Blindly following that procedure without regard for environment changes is unwise as it may cause the agent to try to accomplish a goal that is no longer valid.
+	\item[Proactiveness] Intelligent agents exhibit behaviours that will allow them to achieve their own goals. 
+	\item[Social Ability] Intelligent agents are capable of interacting with other agents in order to achieve their goals.
+\end{description}
+
+As we can see, social ability is closely related with an intelligent agent's capabilities.
+
+In the next subsection I present a classification of agents into four different kinds, and in the following subsection we'll return to the topic of social ability in agents. 
+
+\subsubsection{Types of Agents}
+\subsubsection{What makes them Social?}
+
+\subsubsection{How do they do it}
+
+
 
 \subsection{Artificial Intelligence in Games}
 Talk about Game AI and the most common used techniques in the field (Behaviour Trees, etc) and why are they used.
 It will help limit the approach we'll use since we can rule out models that are to time consuming (for example) as we need a real time approach
 
 \subsection{Modding}
-Talk about mods and modding in general \cite{mascarenhas13}
+Talk about mods and modding in general
 
-\subsection{A Survival Game: Don't Starve Together}
+\subsection{Survival Games and Don't Starve Together}
+Survival games represent a complex problem.
+They are usually set in harsh open-ended worlds where players must collect resources, craft tools and weapons, and most of all survive.
+Generally, there are no set goals for the player to achieve, and as there is no winning condition, the main objective is to last as long as possible. 
+Many survival games have a \textit{permadeath}\footnote{\textit{When the player dies he must start the game from the beginning}} system, making it impossible to continuously improve in a single world.
+Early titles like UnReal World
+
+\subsubsection{Don't Starve Together}
 \ac{DST} is a multiplayer wilderness survival game developed at Klei Entertainment, where the players must survive as long as they can.
 The players must face the harshnesses of a procedurally generated world that is actively trying to kill them, either by cooperating or competing with each other.
 Each game can last and indefinite amount of time which is only determined by the players' ability to survive, the better you play the game, the longer you can last.

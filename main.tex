@@ -13,7 +13,7 @@
 \usepackage[printonlyused]{acronym}
 
 %% References and stuff
-\usepackage[backend=bibtex,style=splncs]{biblatex}
+\usepackage[backend=bibtex]{biblatex}
 \bibliography{references}
 
 
@@ -30,16 +30,15 @@
 \makeatletter
 
 % Page format
-\usepackage{geometry}
-\geometry{
-	a4paper,         % or letterpaper
-	textwidth=15cm,  % llncs has 12.2cm
-	textheight=24cm, % llncs has 19.3cm
-	heightrounded,   % integer number of lines
-	hratio=1:1,      % horizontally centered
-	%vratio=2:3,      % not vertically centered
-	vratio=1:1,
-}
+%\usepackage{geometry}
+%\geometry{
+%	a4paper,         % or letterpaper
+%	textwidth=15cm,  % llncs has 12.2cm
+%	textheight=24cm, % llncs has 19.3cm
+%	heightrounded,   % integer number of lines
+%	hratio=1:1,      % horizontally centered
+%	vratio=1:1,      % vertically centered
+%}
 
 
 \begin{document}
@@ -60,9 +59,11 @@ To be filled.
 \newpage
 
 \input{introduction.tex}
+\newpage
 \input{related-work.tex}
+\newpage
 \input{solution-proposal.tex}
-
+\newpage
 \printbibliography
 \include{acronyms}
 
