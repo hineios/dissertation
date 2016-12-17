@@ -2,7 +2,7 @@
 
 \subsection{Social Agents}
 Agents represent a highly interdisciplinary field with influences and applications in several diverse areas such as economics, philosophy, logic, ecology, social science and computer science \cite{wooldridge:multiagent-systems}.
-It's expectable that such a diverse field might have no universally accepted definition \cite{wooldridge:intelligentagents}.
+It's expectable that such a diverse field might have no universally accepted definition for agents \cite{wooldridge:intelligentagents}.
 
 For the remainder of this section I'll, firstly, present a definition for what an Agent is and also see the notion of an intelligent agent.
 I'll then continue on analysing what makes an agent social, thus defining Social Actions.
@@ -40,16 +40,66 @@ As we've seen, social ability is one of the main capabilities an agent must poss
 But what is Social Ability?
 We can say that a social able agent performs Social Actions.
 
-Consider a web browser: it exchanges messages with a daemon through the Internet using a well-known protocol for communication, presenting web pages to the user on demand.
+Consider a web browser: it exchanges messages with a web server through the Internet using a well-known protocol for communication, presenting web pages to the user on demand.
 Can we consider a browser a social agent?
-Even if we view both the browser and the daemon agents, this simple for of communication can hardly be considered social.
+
+Even if we view both the browser and the web server as agents, this simple form of communication can hardly be considered social.
+Going back to our example of Unix daemons, they are usually engaged in several exchanges of information with their peers and negotiate how to exchange this information, but that does not make them social.
 
 As Castelfranchi puts it: "\textit{Agents are not 'agents' by virtue of the fact that they communicate;
 they cannot be called 'social' because they communicate but the other way around: they communicate because they are social}" \cite{castelfranchi:socialactions}.
 
-There as been a common misconception of considering negotiating agents as social but 
+\begin{figure}
+  \centering
+    \includegraphics[width=\textwidth]{block-world-1}
+  \caption{Block World initial state}
+  \label{fig:block-world-1}
+\end{figure}
+
+Over the years, there as been the common misconception of considering negotiating agents as social, but as we have seen that's not always the case.
+So, what makes actions social?
+
+Imagine a block world where two agents exist, check Fig. \ref{fig:block-world-1}.
+Both agents can move blocks around the world at will but cannot communicate.
+The first agent, Sam, has the goal of putting both blocks A and B on the table, and the second agent, Bob, as the goal of putting block C on top of block A.
+However, Bob cannot move blocks A, B, and D due to their size.
+Therefore, Bob needs Sam in order to achieve its goal.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=\textwidth]{block-world-2}
+  \caption{Block World after Sam's action}
+  \label{fig:block-world-2}
+\end{figure}
+
+Following only its own goals, Sam will put block B on the table (check Fig. \ref{fig:block-world-2}), and Bob will then be able to put block C on top of A, completing its own goal (check Fig. \ref{fig:block-world-3}).
+In this example, Sam and Bob exhibited some sort of cooperation and both achieved their own goals \footnote{This example was taken from \cite{castelfranchi:socialactions}}.
+
+But they did so unconsciously, without knowing or having any understanding of eachother's goals, thus an action related to another agent is not necessarily social \cite{castelfranchi:individualsocialaction}.
+And the opposite is also true, an action not directly related to another agent may be social in nature (consider, for example, when an agent closes a door because it doesn't want others agents looking inside the room).
+
+\begin{figure}
+  \centering
+    \includegraphics[width=\textwidth]{block-world-3}
+  \caption{Block World final state, after Bob's action}
+  \label{fig:block-world-3}
+\end{figure}
+
+To illustrate the opposite, consider two agents inside a room: the first one, John, seated at its desk and the second one, Mary, standing between John's desk and the door.
+After a short conversation regarding a general topic, John, heads toward the door.
+Mary, understanding John's intention of getting out of the room, promptly moves aside out of John's way, without John communicating its own intentions.
+
+This action, of Mary stepping aside of John's way, is clearly a social one.
+By interpretation of John's action, Mary demonstrated that it has an understanding of John goals and actively acts upon this knowledge.
+Mary has an internal representation of John's mind, by other words, Mary is a \textit{mind-reading} agent, the basis of a social agent \cite{castelfranchi:socialactions}.
+
+Mind-reading is the main capability an agent must posses in order to perform social actions.
+And as shown in the example, this internal representation of another's agent goals and intentions, needs not be explicitly transmitted, and is, in many cases, interpreted from the agent's behaviour \cite{castelfranchi:socialactions}.
+
+We can now understand that social agents need not only have goals and intentions of their own, but must also be able to understand and model goals and intentions of other agents.
 
 \subsubsection{How do they do it}
+TODO
 
 \subsection{Artificial Intelligence in Games}
 Talk about Game AI and the most common used techniques in the field (Behaviour Trees, etc) and why are they used.
