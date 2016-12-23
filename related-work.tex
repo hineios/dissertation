@@ -99,13 +99,13 @@ And as shown in the example, this internal representation of another's agent goa
 We can now understand that social agents need not only have goals and intentions of their own, but must also be able to understand and model goals and intentions of other agents.
 
 \subsubsection{How do they do it}
-TODO
-
-Talk about comme il faut
-
-Fatima
-
-
+\begin{itemize}
+\item Comme il Faut
+\item Fatima
+\item An architecture for believable socially aware agents: MSc Dissertation by Arvand Dorgoly
+\item Praxis
+\item PsychSim
+\end{itemize}
 \subsection{Artificial Intelligence in Games}
 
 For games, one of the most important aspects is the player's experience.
@@ -113,16 +113,47 @@ The game's flow and immersion are key elements to this experience \cite{ijsselst
 In the last years, in order to improve plauer's game play experience, the game industry have used \ac{AI} with several different purposes: player experience modelling, procedural content generation, massive-scale game data mining, and \ac{NPC} \ac{AI} \cite{yannakakis:gameairevisited}.
 
 In this section I'm interested in exploring the techniques and tools used for the creation of \ac{NPC}s.
-Asa key art 
+As the name suggests, non playable characters are part of the game but the player cannot control them.
+If not the player, then who controls \ac{NPC}s?
+The answer is \ac{AI}.
+In games, \ac{AI} focus on the creation of characters that behave like humans or animals.
 
+However, game \ac{AI} doesn't always use complex techniques to achieve believable characters, and often, the more complex algorithms produce behaviours that appear stupid \cite{millington:AIgames}.
+For example, in Black and White \cite{game:black&white} the player plays the part of a god.
+Using a gigantic creature under his control, the player can take over villages, see Fig. \ref{fig:black-and-white}.
+\begin{figure}
+  \centering
+    \includegraphics[width=\textwidth]{black-and-white}
+  \caption{Black and White, example of using your creature to destroy a village.}
+  \label{fig:black-and-white}
+\end{figure}
+This creature uses reinforcement learning algorithms to learn the behaviours that the player wants him to perform automatically.
+But not always the creatures learns want the player wants, learning unwanted behaviours and even failing to learn the most basic ones.
 
-Scripted agents
+Because of this, and the lack of control on more complex algorithms, game developers sometimes choose to fake it.
+"If it looks like a duck, and makes quack, it probably is a duck".
+Instead of using complex algorithms, game developers tend to use clever solutions than produce a good behaviour.
 
-Decision Trees
+In Pacman \cite{game:pacman}, the ghosts behaviour can almost be viewed as each one of them having different personalities. 
+By using four different targeting functions (check Fig. \ref{fig:ghosts-targeting}), the developers have managed to create an interesting and challenging game \ref{pacman:dossier}.
 
-Behaviour trees
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{blinky}
+\includegraphics[width=0.5\textwidth]{pinky}
+\includegraphics[width=0.5\textwidth]{inky}
+\includegraphics[width=0.5\textwidth]{clyde}
+  \caption{Pacman's ghosts targeting functions examples.}
+  \label{fig:ghosts-targeting}
+\end{figure}
 
-It will help limit the approach we'll use since we can rule out models that are to time consuming (for example) as we need a real time approach
+For the remainder of this section I'll follow Millington's work \cite{millington:AIgames} on \ac{AI} for games, exploring three common used techniques: Hacks, Heuristics and Algorithms.
+In the end I'll present some common constraints found when building \ac{AI} for games.
+
+\subsubsection{Hacks}
+\subsubsection{Heuristics}
+\subsubsection{Algorithms}
+\subsubsection{Constrains}
+
 
 \subsection{Modding}
 Modding consists in altering an existent video game either by completely changing its gameplay experience or by changing only its visual aspect.
