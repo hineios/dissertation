@@ -1,4 +1,8 @@
 \section{Related Work}
+Over the next sections I'll present the ground work for the agent I want to achieve.
+I'll start by defining what an agent is and what it needs to have/do in order to be considered social and then I'll analyse several different architectures and models that implement social agents.
+Afterwards I'll present some works related to collaborative agents since it may help in the specification of my model.
+I'll then conclude with a Discussion section where I'll sum up all the pros and cons of the presented works, by this point it should be clear what I'm going to use in my model and why I'm using it.
 
 
 \input{social-agents}
@@ -6,8 +10,26 @@
 \input{psychsim}
 \input{cif}
 \input{fatima}
+\input{versu}
 \input{dorgoly-social-agents}
-\input{praxis}
+\input{collaborative-agents}
 
 
 \subsection{Discussion}
+Throughout the previous sections we've looked at social agents and some works that use and implement social agents.
+We've also taken a look at collaborative agents with the purpose of defining a model to implement a social agent.
+
+There are several aspects that an agent must possess in order to be considered social, as discussed in \ref{ssec:social-agents}.
+Keeping in mind that the agent's actions must be social by design, the key capability of a social agent is mind-reading.
+
+All of the explored architectures have mind-reading capabilities provided by the use of \ac{TOM} models.
+\ac{TOM} models allow the agent to include other agents perceived intentions and desires in its deliberative process (either in choosing a single action or in a planning processes).
+So what differentiates them?
+
+One of the main points argued was the planning capabilities of the architectures/models.
+As we've seen, PsychSim, \ac{CiF}, and Versu lack this ability while \ac{FAtiMA} and Dorgoly's architecture don't, making them better suited for the agent.
+
+Although it was not a requirement, both \ac{FAtiMA} and Dorgoly's architecture made use of appraisal theories to model emotions.
+This is not at all bad for the agent's purpose, as it can help the players to better relate with it.
+
+Finally, Dorgoly's architecture distinguishes itself from \ac{FAtiMA} by its use of roles to model social context, although \ac{FAtiMA} could also achieve social behaviour through the use of another module, Dorgoly's architecture already includes all that logic in its core processes, making it, in my opinion a stronger model for this problem.
