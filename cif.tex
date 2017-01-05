@@ -1,1 +1,16 @@
 \subsection{Comme il Faut}
+\ac{CiF} is an \ac{AI} system that enables authors to create interactive stories by specifying, not the complete narrative and all its ramifications but, high-level rules governing expected character behaviour given social situations \cite{mccoy:cif-social-story-worlds}.
+In \ac{CiF}, characters use many attributes of the current social state, including the story of prior interactions, to decide how to engage in social exchanges with other characters.
+This architecture provides a rich social environment for characters to interact allowing the creation of dynamic and interactive stories.
+
+\ac{CiF} does not store world information in a series of events, like many \ac{AI} techniques do (e.g. Behaviour Trees and Hierarchical Task Networks).
+Social exchanges are the primary structure of representing knowledge in \ac{CiF} \cite{mccoy:cif-authoring}.
+They consist in social interactions between characters that modify the social state of the participants.
+By using social exchanges and additional encoded social context, \ac{CiF} lowers the authoring burden needed to create the social aspects of an interactive story by allowing the author to specify the rules and general patterns of how social interaction should take place.
+
+Characters' behaviour is chosen based on rules in a large rule database that depict normal social behaviour in a particular story world.
+These rules in conjunction with the logic of a social world, a set of characters, and a series of scenario goals allows \ac{CiF} to determine the desired action for each character.
+
+\ac{CiF} provides a sound model for empowering characters with social ability, but it's main goal is storytelling.
+As an architecture for an agent, it lacks planning capabilities that we need for our agent.
+Despite its successful implementation in the game Prom Week \cite{mccoy:prom-week} \footnote{Mismanor, a still in development role-playing game that uses an altered version of \ac{CiF}, is another example.}, the authors still need to specify every rule for every possible social interaction between characters. Prom Week contains over forty nine hundred unique influence rules, around sixty social exchanges with over twenty rules that contribute to the characters desire and responses, a cast of eighteen characters, and a combined total of over forty thousand predicates.
