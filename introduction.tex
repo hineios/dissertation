@@ -1,25 +1,55 @@
 \section{Introduction}
 \label{sec:introduction}
 For games, one of the most important aspects is the player's experience.
-The game's flow and immersion are key elements to this experience \cite{ijsselsteijn:userexperience}, and this is where \ac{AI} comes into play.
+Over the last years, the continuous development of computer graphics has pushed video games to a new level of fidelity.
+Video games representation of the world has become more and more realistic, allowing players to experience new levels of immersion.
+With the recent boom in Virtual Reality, players have never been so close to the game's world.
+
+With the level of real life likeness of the game world increasing so does the player expectation of real life like interaction.
+This expectation is extended to the characters that compose the environment, typically called \ac{NPC}, because its
+behaviour is defined by the computer.
+Both the computer controlled characters and player controlled avatars need to act in a believable manner so that the illusion of reality created by exquisite graphics and physics, the "player immersion", is not broken \cite{thrainsson:emotion-games}.
+The lack of life-likeness in \ac{NPC}s breaks the immersion, and can provide a bad game play experience for the players, given that the game's flow and immersion are key elements to player's experience \cite{ijsselsteijn:userexperience}
+
+In games where player immersion is specially important there is an even greater concern for computer controlled characters to react to the environment around them, including the player, and to act as credible as possible to not break that immersion.
+Believability requires characters to have basic human traits like emotions and the ability to make decisions on their own.
+Most modern day video games are heavily dependent on player to \ac{NPC} interaction, however, while some degree of independent decision making is implemented, it's mostly based on combat and has no social concern whatsoever.
+Additionally in games where social relations are considered, these are typically part of the storyline and do not let players directly act to influence those relations, instead letting them be consequences of other (most commonly physical) actions that are shown through pre-processed cut-scenes.
 
 In the last years, in order to improve player's game play experience, the game industry have used \ac{AI} with several different purposes: player experience modelling, procedural content generation, massive-scale game data mining, and \ac{NPC} \ac{AI} \cite{yannakakis:gameairevisited}.
+Modern social architecture/models, originating from academic research groups, can transform games and its characters into a totally new interactive experience.
+NPCs have social desires and complex behaviours and work towards changing the social state around them.
+The player can see them in action and decide whether or not he will interfere or not, introducing another kind of decision making in
+the game, one with immediate and visible consequences.
 
-\begin{itemize}
-	\item Talk about graphical believability and how AI in games should accompany this trend
-	\item Talk about engagement in games through NPCs (better NPCs create a better game experience).
-	\item Talk about the lack of AI for survival games (maybe use Left 4 Dead 2 as an example of an AI)
-\end{itemize}
+Survival games, a genre of video games, as seen, over the last years, an extreme growth in popularity.
+Usually, players face an harsh open world and their objective is to hold out as long as they can.
+Given the open nature of the game, the presence of \ac{NPC}s is usually scarce and, if present, they usually aren't subject to the same rules as the players (e.g. take damage from enemies or become hungry).
+This can greatly disrupt the immersion of the game.
 
 \subsection{Problem}
-"Can we improve a player's gameplay experience in Don't Starve Together using social agents?"
+\ac{DST} is a popular survival multi-player game where players have to resist the world (a more in-depth description of the game can be found in \ref{sec:dst}).
+In the original game there are no \ac{NPC}s and players either play alone against the world, cooperate with other players, or compete with other players.
+
+The problem I propose myself to overcome can be summarized in one sentence:
+\begin{quotation}
+Can we improve a player's game play experience in Don't Starve Together using social agents?
+\end{quotation}
 
 \subsection{Hypothesis}
+As noted before, one of the shortcomings in today's games is \ac{NPC}s believability.
+The break on immersion caused by these shortcomings have a direct impact on the player's experience and is, therefore, a problem worth solving.
 
+As social ability and emotions are paramount for the perception of \ac{NPC}s in games, the use of a social agent can help \ac{NPC}s to overcome this lack of believability.
+Therefore, I hypothesise that, by using social agents we can provide the player with a better game play experience.
 
 \subsection{Objectives}
-Develop a model that combines the social interaction with players and the capacity of an agent to survive in a survival game
-Check if players like to play with the agent
-and check if they prefer to play with humans or the agent
+The main objectives of this work are to implement a social agent to play \ac{DST} and understand if the player's game play experience can be improved through the use of our agent.
+
+As side objectives, it will be interesting to understand if players prefer to play with humans or with the agent and se how long can the agent hold out against the game.
 
 \subsection{Document Outline}
+Firstly, in Section \ref{sec:background} I'll provide some background on both the game \ac{DST} and social agents.
+Then, in Section \ref{sec:related-work}, I'll move on to presenting five different architectures for social agents: PsychSim, \ac{CiF}, FAtiMA, Versu, and an architecture by Arvand Dorgoly.
+I'll conclude the Section \ref{sec:related-work}, with a brief discussion of all the pros and cons for each presented architecture.
+Finally, in Section \ref{sec:solution-proposal}, there will be a description of the proposed architecture based on the games' own design, how it will be evaluated, and a plan depicting the work's milestones. 
