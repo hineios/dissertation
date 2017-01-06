@@ -1,4 +1,5 @@
 \subsection{An Architecture for Believable Socially Aware Agents}
+\label{sec:dorgoly}
 Dorgoly's work presents a novel architecture to address believability in \ac{NPC}s with special atention to the social capabilities of the \ac{NPC} \cite{dorgoly:social-agents}.
 
 This is done by introducing a role based architecture and using role variables to customize agent processes such as planning and emotion appraisal to achieve the agent's goals (check Dorgoly's agent architecture in Fig. \ref{fig:believable-social-agents-architecture}).
@@ -29,9 +30,11 @@ In the event of an invalid action, the agent must make a new plan.
 If the plan has finished the memory must inform the intention recognition to set a new goal for the agent.
 \item \textbf{Intention Recognition} This module processes the agent's active roles and sets the agent intention on the most important goal.
 \item \textbf{Planning Module} The Planning module receives the agent's goal and comes up to a plan to achieve it.
-\item \textbf{Active Role} The agent's role has a set of personality traits, beliefs, and goals that represent the agents' social context.
-This role in constantly being updated by and influencing every other module. 
+\item \textbf{Active Role} A role has a set of personality traits, beliefs, and goals that represent the agents' social context.
+A role is defined as the relationship of one person to another person, group or object.
+It formalizes an agent's relationship with its environment and with other agents, including other agents' expectations based on this relationship.
+Essentially, a role specifies how the agent should act. 
 \end{description}
 
 Using Dorgoly's architecture, we can create agents with qualities such as being reactive, being responsive, and having the presence of a goal and personality.
-Has we have discussed in \ref{ssec:social-agents}, agents' actions must be social by themselves, and this models provides just that: an emotional socially-aware agent with planning capabilities.
+Has we have discussed in \ref{sec:social-agents}, agents' actions must be social by themselves, and this architecture provides just that, by using roles to influence its actions.

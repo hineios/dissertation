@@ -1,4 +1,5 @@
-\section{Don't Starve Together}
+\subsection{Don't Starve Together}
+\label{sec:dst}
 \ac{DST} is a multiplayer wilderness survival game developed at Klei Entertainment, where the players must survive as long as they can.
 The players must face the harshnesses of a procedurally generated world that is actively trying to kill them, either by cooperating or competing with each other.
 Each game can last and indefinite amount of time which is only determined by the players' ability to survive, the better you play the game, the longer you can last.
@@ -18,7 +19,7 @@ By the end of 2013 the original title (Don't Starve) sold over one million copie
 The game counts with a developer maintained forum where there is an active participation in the forums by Klei Entertainment staff, which help in problem solving for community developed mods, bug fixing the game, and sharing development notes on the game.
 Over twenty-five hundred mods are available for the game on the Steam Workshop, making \ac{DST} a well-suited option to implement and test our solution.
 
-\subsection{The Game}
+\subsubsection{The Game}
 Before playing \ac{DST}, the players must first choose a character from a list of different characters.
 Different characters have different characteristics and may be affected by the world in different ways (for example, WX-78 can eat spoiled food without penalties) and can even possess special items (such as Woodie's axe, \textit{Lucy the Axe}).
 Upon entering the world, the player has nothing in its inventory (except for character specific items, as referred earlier) and thus needs to start collecting resources in order to survive.
@@ -36,7 +37,7 @@ Both extreme hot and extreme cold will cause the player to continuously loose He
 Taking care of the character's Hunger, Sanity, and Health is the players main concern during game play.
 The player will accomplish this by collecting resources, crafting new items, cooking food, among other things (we will explore the player's possible actions in full detail further on).
 
-\subsection{The World}
+\subsubsection{The World}
 
 \begin{figure}
   \centering
@@ -57,7 +58,18 @@ In Winter the temperature descends a lot, while in Summer it rises causing the p
 In Spring the rains will increase Wetness which will have the effects 
 Autumn is by far the friendlier season, with mild temperatures and occasional rains, making it the perfect candidate for the starting season.
 
+Seasons bring yet another challenge for players: giants (see Fig. \ref{fig:dst-deerclops}).
+During each season a giant (for each season there is the corresponding giant) will spawn in the vicinity of the player and will attack him.
+The player can either choose to engage in a fight with the giant or try and lure him away until the giant looses interest.
+
 A normal world will also have caves that the players can descend to, but we will not discuss them here since we won't consider them for our agent.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=.9\textwidth]{dst-deerclops}
+  \caption{Deerclops, the Winter giant, chasing after Webber.}
+  \label{fig:dst-deerclops}
+\end{figure}
 
 Moving on to the specifics of each biome, we'll now explore a list of all the available biomes on \ac{DST} and a brief description for each of them:
 
@@ -105,7 +117,7 @@ Our aim is not only to build an agent that plays \ac{DST} well, but one that doe
 This provides a new set of challenges because the agent can't simply play the game but has to do it in a way that players won't lose interest in playing with him.
 Players will also expect to engage in some sort of social activity and therefore the agent must be able to engage in this activities.
 
-\subsection{Game play}
+\subsubsection{Game play}
 In order to survive the players must keep Health, Sanity and Hunger in check, as described before.
 To achieve this, players must collect resources, craft weapons, tools, and equipments, fight, and find a home.
 For the remainder of this section we'll explore, in a general view, what does a player do when playing \ac{DST}.
