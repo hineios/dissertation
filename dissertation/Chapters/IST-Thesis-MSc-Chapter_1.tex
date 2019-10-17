@@ -1,0 +1,83 @@
+% #############################################################################
+% This is Chapter 1
+% !TEX root = ../main.tex
+% #############################################################################
+% Change the Name of the Chapter i the following line
+\fancychapter{Introduction}
+\cleardoublepage
+% The following line allows to ref this chapter
+\label{chapter:introduction}
+
+\noindent In recent years, the continuous improvement and development in computer graphics has pushed video games to new levels of graphical fidelity.
+Graphical representations of virtual worlds have become increasingly more realistic, allowing players to experience new levels of immersion \cite{brown:immersion}.
+Additionally, with the recent boom in virtual reality systems, players have never been so physically immersed in a game's virtual world.
+
+The increases on fidelity and lifelikeness of the virtual world cause players to create expectations on the interactions they can have on the world.
+This expectation applies not only to interactions with the virtual world itself, but is also extended to the interactions with the characters that compose the world, typically called \acp{NPC}.
+
+Computer and player controlled characters need to act in a believable manner so that the illusion of reality created by exquisite graphics and physics, the player's immersion, is not broken \cite{thrainsson:emotion-games}.
+The lack of believability in \acp{NPC} can break the player's immersion and can provide a bad gameplay experience, given that the game's flow and player's immersion are key elements to the gameplay experience \cite{ijsselsteijn:userexperience}.
+Reactivity, goals, emotions, and social competence are necessary traits \acp{NPC} need in order to be believable \cite{bates:emotioninagents}.
+
+Some game genres, like \acp{RPG}, which are heavily dependent on player to \ac{NPC} interaction, have received special attention on the creation of believable characters.
+However, other game genres, like survival games, have not received such attention.
+
+Survival games, a genre that has seen a rise in popularity recently, are often based in open world scenarios that can be procedurally generated.
+Either single or multi-player, some survival games revolve around resource collecting, crafting, and management of the character's needs (hunger and thirst, mostly), while others are set in supernatural worlds with some elements of horror: monster infested worlds where players have to survive by defeating them.
+
+%Their popularity can be justified for their ability in making experiences like surviving a night or overcoming a simple enemy fun.
+More often than not, survival games lack a specific objective other than surviving in a harsh world for as long as possible.
+However, survival games are trending among players and game developers alike, seeing great attention in the indie game scene.
+
+Don't Starve \cite{games:dontstarve}, for example, is a single player survival game set on a procedurally generated world where players have to collect, craft, explore, and fight to survive.
+With a day and night cycle, Don't Starve provides an interesting gameplay by combining mechanics for temperature, wetness, hunger, health, and sanity.
+The introduction of sanity to the game's character provides a novelty factor among its peers, giving the character a human-like trait appropriate for a survival game, representing the strain put on the character by having to survive the harshness of a world with nothing to start with.
+
+Following the trend for multiplayer survival games, Don't Starve has also been released as a multiplayer game under the name of \ac{DST} \cite{games:dontstarvetogether}.
+The game is identical to its predecessor, though it allows several players to join the same world.
+The multiplayer nature of the game brings new challenges to players that can either cooperate or compete for survival.
+In extreme cases, players can even attack and kill each other giving the game an extra challenge to overcome.
+
+However, the game counts with no \acp{NPC} to accompany players in their journey for survival, making players dependent on each other for gameplay.
+The few autonomous non-aggressive characters of Don't Starve Together present limited behaviour and are not subject to the same rules as the players (hunger, health, sanity, etc.).
+
+The nonexistence of interesting and robust \ac{AI} for characters is not exclusive to Don't Starve Together.
+Other survival games suffer from the same problem: the lack of collaborative \ac{AI} for \acp{NPC} capable of creating believable characters.
+
+As said before, on other game genres like \acp{RPG}, tools exist and have been used for the creation of \ac{AI} controlled \acp{NPC} that take into account the character's believability \cite{guimaraes:cif-ck}\cite{afonso:agents-that-relate}\cite{ferreira:merchant-model}.
+Usually empowered by social models, these tools have not yet been applied to survival games.
+
+\section{Motivation}
+
+\noindent In order to improve player's game play experience, the game industry has used \ac{AI} with several different purposes: player experience modeling, procedural content generation, massive-scale game data mining, and \ac{NPC} \ac{AI} \cite{yannakakis:gameairevisited}.
+
+Many modern day video games are dependent on player to \ac{NPC} interaction, and while
+some degree of independent decision making is implemented through the use of \ac{AI} techniques, it’s mostly based on combat and has no social concern whatsoever.
+This lack of social ability in \acp{NPC} can badly impact their believability and in turn affect the player's gaming experience.
+
+While some work has been done to tackle the problem of believability in \acp{NPC}, survival games however, have not been subject of this effort.
+
+\section{Objectives}
+
+\noindent As our objective for this work, we propose the development of a platform that will enable the creation of \acp{NPC} controlled by agency based models for survival games. 
+By making use of \ac{FAtiMA}, an agency based model, and \ac{DST}, a survival game, we will create a framework where agents can be created with FAtiMA and played in Don't Starve Together.
+
+\section{Contribution}
+
+\noindent With the conclusion of this project we've successfully developed the following assets:
+\begin{description}
+  \item[FAtiMA-DST] \hfill \\ A modification for \ac{DST} that enables us to run FAtiMA controlled characters inside the game.
+  \item[FAtiMA-Server] \hfill \\ A console application the handles all the FAtiMA related processing for controlling characters.
+  \item[Walter - The AI Companion] \hfill \\ An example \ac{NPC} published in Steam Workshop that makes use of FAtiMA-DST and FAtiMA-Server.
+  \item[Tutorials \& Instructions] \hfill \\ A complete set of instructions publicly available in conjunction with FAtiMA-Server and FAtiMA-DST that enable developers to create their own FAtiMA powered \acp{NPC} for \ac{DST}.
+\end{description}
+
+\section{Outline}
+
+\noindent In Chapter \ref{chapter:related-work} we will begin by exploring how the game industry is currently developing \acp{NPC}, then we'll explore some of the existing tools and frameworks for building agents, and terminate the chapter with the presentation of some agency models.
+
+Then, in Chapter \ref{chapter:case-study-dst} we will focus on the game itself providing a comprehensive view of it's core mechanics, challenges, and describe a general play-through of the game.
+The conceptual model of the framework is presented in Chapter \ref{chapter:conceptual-model}, while Chapter \ref{chapter:implementation} depicts all the implementation details as well as a walk-through of the process of creating an \ac{NPC} for \ac{DST}, using the example character, Walter, as a base.
+
+The results of this work are presented in Chapter \ref{chapter:evaluation}. In this chapter we'll compare our example \ac{NPC}, Walter, with an unpublished work from an anonymous \textit{modder} and present a use case of our platform.
+Finally, in Chapter \ref{chapter:conclusion}, the conclusions of this work are presented as well as some remarks on possible future work.

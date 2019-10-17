@@ -1,0 +1,93 @@
+% #############################################################################
+% This is Chapter 4
+% !TEX root = ../main.tex
+% #############################################################################
+% Change the Name of the Chapter i the following line
+\fancychapter{Conceptual Model}
+\cleardoublepage
+% The following line allows to ref this chapter
+\label{chapter:conceptual-model}
+
+
+\noindent In this chapter we present a conceptual representation of our work.
+Throughout this chapter we will describe each of the components of the model and its expected behaviour.
+By the end of this chapter, the transition from the model, presented here, to the implementation, presented in Chapter \ref{chapter:implementation}, should be clear. 
+
+In Figure \ref{fig:model} we can see several different modules and concepts.
+The presented decoupling between the agent's \ac{AI} and the agent's embodiment, allows us to consider the use of different \ac{AI} techniques and different survival games.
+
+Do notice that, despite the fact that the agent's \ac{AI} is represented outside the visual representation of the survival game, it needs not be the case.
+Both concepts can be as tightly or as loosely coupled as needed for each different implementation.
+
+Nonetheless, the Survival Game will need to provide ways for an \ac{NPC} to interact with the world, both by collecting information of the world using sensors and by making changes to the world through the use of actuators.
+The \ac{NPC} will then extract the necessary perceptions about the world and, via a specified channel of communication, send them to the appropriate \ac{AI}.
+The \ac{AI} will then perceive the received perceptions.
+Whenever necessary, the \ac{AI} must emit actions that will be executed by the \ac{NPC} via the use of its actuators.
+Throughout this execution, a Logger component will register all the executed actions, their outcome, and all the perceptions sent to the \ac{AI}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{./Images/model}
+  \caption{The proposed conceptual model.}
+  \label{fig:model}
+\end{figure}
+
+Now that we've explored the general flow of the model, we'll describe each of its components in detail.
+
+\begin{description}
+	\item[\textbf{AI Agents}] \hfill
+    
+    This represents the \ac{AI} that will effectively control an \ac{NPC}.
+    It is responsible for receiving perceptions and make decisions.
+    It must be able to handle behaviour decisions and non-behaviour related decisions (such as dialogue).
+    
+    This module will need to have reactive capabilities as well as strategic decision making.
+    Due to their dangerous environments and sometimes monsters, survival games (and in specific Don't Starve Together) require the ability to handle unexpected events, e.g. when a monster comes to attack the character.
+    Additionally, they also require strategic decision making in order to better survive the world.
+    The harshness of seasons will require that characters prepare ahead to better survive.
+    
+    Additionally, the capability for dialogue should be considered.
+    Great part of player to \ac{NPC} interaction is based on dialogue, as such, this module should be able to handle dialogues.
+    
+    \item[\textbf{Dispatcher}] \hfill
+    
+    This module represents a bridge between the \ac{AI} and the embodiments of agents, managing the creation and destruction of the necessary \ac{AI} modules in accordance with the existing embodiments (\acp{NPC}).
+    It is responsible to direct each perception and action to the appropriate recipient, be it the \ac{AI} or the embodiment of the agent.
+    
+    \item[\textbf{Communication Protocol}] \hfill
+    
+    Only present for illustrative purposes, the communication protocol is the bridge where perceptions and actions travel back and fort.
+    This can be a simple local method invocation or a more complex communication system such as a remote method invocation over the network.
+    
+    Preferably the former, which presents significant advantages: reduced response time, no worries about availability of external services, and no need to translate information between potentially different systems.
+    But, in the case of the later, it must handle the translation of information between systems transparently.
+    
+    \item[\textbf{World}] \hfill
+    
+    The virtual world of the game.
+    This is where all the characters (\acp{NPC} and player characters) actually live and must provide ways for the \ac{NPC}s to act upon it and perceive it.
+
+    \item[\textbf{Scenario Configurator}] \hfill
+    
+    This is, ideally, a part of the survival game.
+    It provides a simple set of configurations that a developer can specify to configure the scenario that will be executed.
+    It can also incorporate some configurations for the \ac{AI} that will empower the \acp{NPC}.
+    
+    \item[\textbf{NPCs}] \hfill
+    
+    This module represents the embodiment of the agents.
+    It will execute any actions on the world and collect the necessary perceptions which in turn are sent to the \ac{AI}.
+    
+    \item[\textbf{Logger}] \hfill
+    
+    The Logger will be used to keep a registry of all the executed actions and their outcomes.
+    It will also keep the registered perceptions of the \ac{NPC}.
+    Although its representation puts it as a part of the game, this module can be independent from the game itself.
+    
+    \item[\textbf{User Interface and Players}]
+    
+    These modules are illustrative of the presence of players characters in the world.
+    The survival game must accommodate the presence of several players that can play cooperatively or competitively and communicate with each other and the \acp{NPC}.
+    
+\end{description}
+

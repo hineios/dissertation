@@ -1,0 +1,111 @@
+%%%% Proceedings format for most of ACM conferences (with the exceptions listed below) and all ICPS volumes.
+%\documentclass[sigconf]{acmart}
+%%%% As of March 2017, [siggraph] is no longer used. Please use sigconf (above) for SIGGRAPH conferences.
+
+%%%% Proceedings format for SIGPLAN conferences 
+% \documentclass[sigplan, anonymous, review]{acmart}
+
+%%%% Proceedings format for SIGCHI conferences
+%\documentclass[sigchi, review]{acmart}
+\documentclass[sigchi]{acmart}
+
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
+\pagestyle{plain} % removes running headers
+
+%%%% To use the SIGCHI extended abstract template, please visit
+% https://www.overleaf.com/read/zzzfqvkmrfzn
+
+
+\usepackage{booktabs} % For formal tables
+\usepackage[utf8]{inputenc}
+
+% Copyright
+%\setcopyright{none}
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+
+% DOI
+\acmDOI{}
+
+% ISBN
+\acmISBN{}
+
+%Conference
+\acmConference[]{}{}{}
+\acmYear{}
+\copyrightyear{}
+
+
+%\acmArticle{4}
+%\acmPrice{15.00}
+
+% These commands are optional
+%\acmBooktitle{Transactions of the ACM Woodstock conference}
+%\editor{Jennifer B. Sartor}
+%\editor{Theo D'Hondt}
+%\editor{Wolfgang De Meuter}
+
+
+\begin{document}
+\title{Creating an Agent-Based Framework for Don't Starve Together}
+%\titlenote{Produces the permission block, and copyright information}
+%\subtitle{Extended Abstract}
+%\subtitlenote{The full version of the author's guide is available as \texttt{acmart.pdf} document}
+
+
+\author{Fábio Almeida}
+\affiliation{
+  \institution{Instituto Superior Técnico}
+  \city{Lisboa}
+  \state{Portugal}
+}
+\email{fabio.vieira.almeida@tecnico.ulisboa.pt}
+
+\author{Rui Prada}
+\affiliation{
+  \institution{Instituto Superior Técnico}
+  \city{Lisboa}
+  \state{Portugal}
+}
+\email{rui.prada@tecnico.ulisboa.pt}
+
+\author{Samuel Mascarenhas}
+\affiliation{
+  \institution{Instituto Superior Técnico}
+  \city{Lisboa}
+  \country{Portugal}
+}
+\email{samuel.mascarenhas@tecnico.ulisboa.pt}
+
+% no short authors on top of page
+\renewcommand{\shortauthors}{}
+
+\begin{abstract}
+Today's video games are striving to maintain high levels of fidelity.
+The realistic graphical representation of virtual worlds is only betrayed by the lack of believability that in-game characters present.
+To maintain the immersion created by exquisite graphics, characters must be able to create the illusion of life, which requires them to possess basic human traits like social awareness, reactivity, and active goal pursuit.
+Some game genres, like role playing games, have seen this problem being addressed by using agency based characters.
+However, survival games have not been subject to the same attention.
+In this work, we address this issue by proposing a framework that allows developers to create characters based on agency models for survival games.
+By making use of FAtiMA Toolkit, a fully fledged model for agency, and Don't Starve Together, a popular survival game, we've implemented and published such a framework with an example character, Walter.
+Walter has been run and tested against a behaviour tree based agent.
+\end{abstract}
+
+\keywords{Artificial Intelligence, Non Playable Characters , Believable Characters, Survival Games}
+
+
+\maketitle
+
+\input{body}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{bibliography}
+
+\end{document}

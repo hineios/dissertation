@@ -1,0 +1,1025 @@
+OnActionSuccess - Action: Activate 100049 - resurrectionstone	
+OnActionSuccess - Action: Pick up 105075 - stinger(LIMBO)	
+OnActionSuccess - Action: Pick up 101923 - blueprint(LIMBO)	
+OnActionSuccess - Action: Pick up 104521 - beemine(LIMBO)	
+OnActionSuccess - Action: Pick up 105076 - stinger	
+OnActionSuccess - Action: Pick up 105077 - stinger	
+OnActionSuccess - Action: Pick up 100209 - bugnet(LIMBO)	
+OnActionSuccess - Action: Pick up 101910 - beehat(LIMBO)	
+OnActionSuccess - Action: Pick 102316 - sapling	
+OnActionSuccess - Action: Pick up 104816 - flint(LIMBO)	
+OnActionSuccess - Action: Pick 102299 - sapling	
+OnActionSuccess - Action: Pick 102302 - sapling	
+OnActionSuccess - Action: Pick 102297 - sapling	
+OnActionSuccess - Action: Pick 102002 - carrot_planted	
+OnActionSuccess - Action: Pick 101495 - grass	
+OnActionSuccess - Action: Pick 101496 - grass	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:torch	
+OnActionSuccess - Action: Light 103356 - evergreen With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:axe	
+OnActionSuccess - Action: Chop 103356 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106099 - charcoal(LIMBO)	
+OnActionSuccess - Action: Light 103332 - evergreen With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103360 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106154 - log(LIMBO)	
+OnActionSuccess - Action: Pick up 106155 - log	
+OnActionSuccess - Action: Pick up 106156 - log	
+OnActionSuccess - Action: Chop 103332 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106170 - charcoal	
+OnActionSuccess - Action: Chop 103334 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103334 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103334 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103334 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103334 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103334 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103334 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103334 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103334 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103334 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106183 - log	
+OnActionSuccess - Action: Light 103328 - evergreen With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Pick up 106184 - log	
+OnActionSuccess - Action: Pick 101484 - grass	
+OnActionSuccess - Action: Pick 101483 - grass	
+OnActionSuccess - Action: Pick 102278 - sapling	
+OnActionSuccess - Action: Pick 102277 - sapling	
+OnActionSuccess - Action: Pick 102281 - sapling	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103326 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106263 - log	
+OnActionSuccess - Action: Pick up 106262 - log	
+OnActionSuccess - Action: Pick up 106264 - log	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103329 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106288 - log	
+OnActionSuccess - Action: Pick up 106287 - log	
+OnActionSuccess - Action: Pick up 106289 - log	
+OnActionSuccess - Action: Pick 101511 - grass	
+OnActionSuccess - Action: Chop 103333 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103333 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103333 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103333 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103333 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103333 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103333 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103333 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103333 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103333 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106311 - log	
+OnActionSuccess - Action: Pick up 106310 - log	
+OnActionSuccess - Action: Chop 103328 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106315 - charcoal	
+OnActionSuccess - Action: Pick 101486 - grass	
+OnActionSuccess - Action: Pick up 104819 - flint(LIMBO)	
+OnActionSuccess - Action: Pick up 104817 - flint	
+OnActionSuccess - Action: Pick up 104815 - flint	
+OnActionSuccess - Action: Pick up 104818 - flint	
+OnActionSuccess - Action: Pick 101482 - grass	
+OnActionSuccess - Action: Pick 102280 - sapling	
+OnActionSuccess - Action: Pick 102279 - sapling	
+OnActionSuccess - Action: Pick 101500 - grass	
+OnActionSuccess - Action: Pick 102303 - sapling	
+OnActionSuccess - Action: Pick 101497 - grass	
+OnActionSuccess - Action: Pick 102300 - sapling	
+OnActionSuccess - Action: Pick 103057 - berrybush	
+OnActionSuccess - Action: Pick 102304 - sapling	
+OnActionSuccess - Action: Chop 103357 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103357 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103357 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103357 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103357 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106363 - log	
+OnActionSuccess - Action: Chop 103355 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103355 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103355 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103355 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103355 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103355 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103355 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103355 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103355 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103355 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106376 - log	
+OnActionSuccess - Action: Pick up 106377 - log	
+OnActionSuccess - Action: Chop 103354 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103354 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103354 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103354 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103354 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106387 - log	
+OnActionSuccess - Action: Pick 101499 - grass	
+OnActionSuccess - Action: Pick 102301 - sapling	
+OnActionSuccess - Action: Pick 102298 - sapling	
+OnActionSuccess - Action: Pick 101498 - grass	
+OnActionSuccess - Action: Chop 103361 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103361 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103361 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103361 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103361 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106403 - log	
+OnActionSuccess - Action: Chop 103358 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103358 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103358 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103358 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103358 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103358 - evergreen With Inv:106082 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103358 - evergreen With Inv:106082 - axe	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:axe	
+OnActionSuccess - Action: Chop 103358 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103358 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103358 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 106426 - log	
+OnActionSuccess - Action: Pick up 106427 - log	
+OnActionSuccess - Action: Pick 101319 - grass	
+OnActionSuccess - Action: Pick 101312 - grass	
+OnActionSuccess - Action: Pick 101325 - grass	
+OnActionSuccess - Action: Pick 101326 - grass	
+OnActionSuccess - Action: Pick 101309 - grass	
+OnActionSuccess - Action: Pick 101315 - grass	
+OnActionSuccess - Action: Pick 101317 - grass	
+OnActionSuccess - Action: Pick 101329 - grass	
+OnActionSuccess - Action: Pick 101313 - grass	
+OnActionSuccess - Action: Pick 101308 - grass	
+OnActionSuccess - Action: Pick 101318 - grass	
+OnActionSuccess - Action: Pick 101384 - grass	
+OnActionSuccess - Action: Pick 101383 - grass	
+OnActionSuccess - Action: Pick 101386 - grass	
+OnActionSuccess - Action: Pick 101385 - grass	
+OnActionSuccess - Action: Pick 102252 - sapling	
+OnActionSuccess - Action: Pick 101265 - grass	
+OnActionSuccess - Action: Pick 101270 - grass	
+OnActionSuccess - Action: Pick 101267 - grass	
+OnActionSuccess - Action: Pick 101272 - grass	
+OnActionSuccess - Action: Pick 101268 - grass	
+OnActionSuccess - Action: Pick 101266 - grass	
+OnActionSuccess - Action: Pick 101269 - grass	
+OnActionSuccess - Action: Pick 101391 - grass	
+OnActionSuccess - Action: Pick 101394 - grass	
+OnActionSuccess - Action: Pick 101396 - grass	
+OnActionSuccess - Action: Pick 101390 - grass	
+OnActionSuccess - Action: Pick 101392 - grass	
+OnActionSuccess - Action: Pick 101393 - grass	
+OnActionSuccess - Action: Pick 101273 - grass	
+OnActionSuccess - Action: Pick up 106068 - poop(LIMBO)	
+OnActionSuccess - Action: Pick up 106095 - poop	
+OnActionSuccess - Action: Pick 101398 - grass	
+OnActionSuccess - Action: Pick up 106097 - poop	
+OnActionSuccess - Action: Pick up 106079 - poop	
+OnActionSuccess - Action: Pick 101367 - grass	
+OnActionSuccess - Action: Pick 102016 - carrot_planted	
+OnActionSuccess - Action: Pick 102349 - sapling	
+OnActionSuccess - Action: Pick 102345 - sapling	
+OnActionSuccess - Action: Pick up 106091 - poop	
+OnActionSuccess - Action: Pick up 106221 - poop	
+OnActionSuccess - Action: Pick 103067 - berrybush	
+OnActionSuccess - Action: Build nil Recipe:campfire	
+OnActionSuccess - Action: Cook 106907 - campfire With Inv:106022 - carrot(LIMBO)	
+OnActionSuccess - Action: Cook 106907 - campfire With Inv:106022 - carrot	
+OnActionSuccess - Action: Cook 106907 - campfire With Inv:106347 - berries(LIMBO)	
+OnActionSuccess - Action: Cook 106907 - campfire With Inv:106347 - berries	
+OnActionSuccess - Action: Eat 106957 - berries_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 106957 - berries_cooked	
+OnActionSuccess - Action: Eat 106923 - carrot_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 106923 - carrot_cooked	
+OnActionSuccess - Action: Add Fuel 106907 - campfire With Inv:106154 - log(LIMBO)	
+OnActionSuccess - Action: Pick 102347 - sapling	
+OnActionSuccess - Action: Pick 102348 - sapling	
+OnActionSuccess - Action: Pick 101554 - grass	
+OnActionSuccess - Action: Pick 102346 - sapling	
+OnActionSuccess - Action: Chop 103388 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103388 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103388 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103388 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103388 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103388 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103388 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103388 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103388 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103388 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 108049 - log	
+OnActionSuccess - Action: Pick up 108050 - log	
+OnActionSuccess - Action: Pick 101553 - grass	
+OnActionSuccess - Action: Pick 101555 - grass	
+OnActionSuccess - Action: Chop 103389 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103389 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103389 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103389 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103389 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103389 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103389 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103389 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103389 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103389 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 108074 - log	
+OnActionSuccess - Action: Light 103390 - evergreen With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Pick up 108100 - poop	
+OnActionSuccess - Action: Pick up 106739 - poop	
+OnActionSuccess - Action: Pick up 106716 - poop	
+OnActionSuccess - Action: Pick up 106136 - poop	
+OnActionSuccess - Action: Pick up 106089 - poop	
+OnActionSuccess - Action: Pick up 106159 - poop	
+OnActionSuccess - Action: Light 103309 - evergreen With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:pickaxe	
+OnActionSuccess - Action: Mine 102061 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102061 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102061 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102061 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102061 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102061 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102061 - rock1 With Inv:108141 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 108159 - flint	
+OnActionSuccess - Action: Pick up 108155 - rocks(LIMBO)	
+OnActionSuccess - Action: Pick up 108156 - rocks	
+OnActionSuccess - Action: Pick up 108158 - flint	
+OnActionSuccess - Action: Pick up 108154 - rocks	
+OnActionSuccess - Action: Mine 102069 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102069 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102069 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102069 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102069 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102069 - rock1 With Inv:108141 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102069 - rock1 With Inv:108141 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 108187 - flint	
+OnActionSuccess - Action: Pick up 108185 - rocks	
+OnActionSuccess - Action: Pick up 108183 - rocks	
+OnActionSuccess - Action: Pick up 108184 - rocks	
+OnActionSuccess - Action: Pick up 108188 - flint	
+OnActionSuccess - Action: Pick up 108128 - poop	
+OnActionSuccess - Action: Pick up 108115 - poop	
+OnActionSuccess - Action: Pick up 108174 - poop	
+OnActionSuccess - Action: Pick up 108108 - butterflywings(LIMBO)	
+OnActionSuccess - Action: Chop 103390 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 108294 - charcoal	
+OnActionSuccess - Action: Pick 102350 - sapling	
+OnActionSuccess - Action: Pick up 106868 - froglegs(LIMBO)	
+OnActionSuccess - Action: Pick up 106867 - fish(LIMBO)	
+OnActionSuccess - Action: Pick up 106986 - fish	
+OnActionSuccess - Action: Pick up 107129 - froglegs	
+OnActionSuccess - Action: Pick up 107378 - fish	
+OnActionSuccess - Action: Light 105197 - evergreen_sparse With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Pick 102337 - sapling	
+OnActionSuccess - Action: Light 105195 - evergreen_sparse With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100411 - deciduoustree With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100414 - deciduoustree With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100422 - deciduoustree With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100419 - deciduoustree With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Pick 102416 - sapling	
+OnActionSuccess - Action: Light 100476 - deciduoustree With Inv:106046 - torch(LIMBO)	
+OnActionSuccess - Action: Pick 102401 - sapling	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:torch	
+OnActionSuccess - Action: Light 100392 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100389 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Pick 102400 - sapling	
+OnActionSuccess - Action: Light 100507 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100402 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100423 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100427 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100433 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100434 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Pick 102404 - sapling	
+OnActionSuccess - Action: Chop 100427 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 115996 - charcoal	
+OnActionSuccess - Action: Chop 100433 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 116012 - charcoal	
+OnActionSuccess - Action: Chop 100423 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 116028 - charcoal	
+OnActionSuccess - Action: Pick 102387 - sapling	
+OnActionSuccess - Action: Pick 102386 - sapling	
+OnActionSuccess - Action: Light 100488 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100486 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Light 100497 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Pick 102417 - sapling	
+OnActionSuccess - Action: Pick 102419 - sapling	
+OnActionSuccess - Action: Chop 100488 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 116344 - charcoal	
+OnActionSuccess - Action: Chop 100486 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 116373 - charcoal	
+OnActionSuccess - Action: Chop 100497 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 116459 - charcoal	
+OnActionSuccess - Action: Pick 102418 - sapling	
+OnActionSuccess - Action: Pick 102420 - sapling	
+OnActionSuccess - Action: Eat 106867 - fish(LIMBO)	
+OnActionSuccess - Action: Pick up 102637 - rocks	
+OnActionSuccess - Action: Pick 102390 - sapling	
+OnActionSuccess - Action: Pick 102392 - sapling	
+OnActionSuccess - Action: Pick up 102639 - rocks	
+OnActionSuccess - Action: Pick 102389 - sapling	
+OnActionSuccess - Action: Pick 102391 - sapling	
+FMOD Error: Can't find named sound ragtime
+OnActionSuccess - Action: Pick 102388 - sapling	
+OnActionSuccess - Action: Eat 106867 - fish(LIMBO)	
+OnActionSuccess - Action: Build nil Recipe:campfire	
+OnActionSuccess - Action: Cook 117631 - campfire With Inv:106867 - fish	
+OnActionSuccess - Action: Eat 117643 - fish_cooked	
+OnActionSuccess - Action: Cook 117631 - campfire With Inv:106868 - froglegs(LIMBO)	
+OnActionSuccess - Action: Cook 117631 - campfire With Inv:106868 - froglegs	
+OnActionSuccess - Action: Eat 108108 - butterflywings	
+OnActionSuccess - Action: Eat 117697 - froglegs_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 117697 - froglegs_cooked	
+OnActionSuccess - Action: Add Fuel 117631 - campfire With Inv:106154 - log(LIMBO)	
+OnActionSuccess - Action: Pick 104713 - flower	
+OnActionSuccess - Action: Eat 119070 - petals	
+OnActionSuccess - Action: Pick 104711 - flower	
+OnActionSuccess - Action: Eat 119106 - petals	
+OnActionSuccess - Action: Pick up 116029 - acorn(LIMBO)	
+OnActionSuccess - Action: Chop 100426 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100426 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100426 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100426 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100426 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100426 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100426 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100426 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100426 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100426 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119225 - log	
+OnActionSuccess - Action: Pick up 119224 - log	
+OnActionSuccess - Action: Light 100425 - deciduoustree With Inv:114900 - torch(LIMBO)	
+OnActionSuccess - Action: Chop 100425 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100425 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100425 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119281 - charcoal	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 100430 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119304 - log	
+OnActionSuccess - Action: Pick up 119307 - acorn	
+OnActionSuccess - Action: Pick up 119303 - acorn	
+OnActionSuccess - Action: Chop 100434 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119316 - charcoal	
+OnActionSuccess - Action: Pick 103073 - berrybush	
+OnActionSuccess - Action: Chop 100389 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119362 - charcoal	
+OnActionSuccess - Action: Chop 100392 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119376 - charcoal	
+OnActionSuccess - Action: Eat 119340 - berries	
+OnActionSuccess - Action: Chop 100476 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119750 - charcoal	
+OnActionSuccess - Action: Pick 104726 - flower	
+OnActionSuccess - Action: Eat 119760 - petals	
+OnActionSuccess - Action: Pick 111424 - flower	
+OnActionSuccess - Action: Eat 119772 - petals	
+OnActionSuccess - Action: Chop 100419 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119785 - charcoal	
+OnActionSuccess - Action: Chop 100414 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119804 - charcoal	
+OnActionSuccess - Action: Chop 100422 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119821 - charcoal	
+OnActionSuccess - Action: Chop 100411 - deciduoustree With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119836 - charcoal	
+OnActionSuccess - Action: Pick up 119837 - acorn	
+OnActionSuccess - Action: Chop 105195 - evergreen_sparse With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119857 - charcoal	
+OnActionSuccess - Action: Chop 105197 - evergreen_sparse With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 119860 - charcoal	
+OnActionSuccess - Action: Pick up 100878 - boards(LIMBO)	
+OnActionSuccess - Action: Pick up 100879 - boards	
+OnActionSuccess - Action: Pick up 100877 - boards	
+OnActionSuccess - Action: Pick up 100880 - boards	
+OnActionSuccess - Action: Pick up 100881 - boards	
+OnActionSuccess - Action: Pick up 102750 - armorwood(LIMBO)	
+OnActionSuccess - Action: Pick up 107240 - meat(LIMBO)	
+OnActionSuccess - Action: Mine 101894 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101894 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101894 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101894 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101894 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101894 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 101894 - rock_flintless With Inv:108141 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 119942 - rocks	
+OnActionSuccess - Action: Pick up 119945 - rocks	
+OnActionSuccess - Action: Pick up 119944 - rocks	
+OnActionSuccess - Action: Pick up 119946 - rocks	
+OnActionSuccess - Action: Pick up 119943 - rocks	
+OnActionSuccess - Action: Mine 101893 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101893 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101893 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101893 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101893 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101893 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 101893 - rock_flintless With Inv:108141 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 119993 - rocks	
+OnActionSuccess - Action: Pick up 119991 - rocks	
+OnActionSuccess - Action: Pick up 119989 - rocks	
+OnActionSuccess - Action: Pick up 119990 - rocks	
+OnActionSuccess - Action: Pick up 119992 - rocks	
+OnActionSuccess - Action: Mine 101892 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101892 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101892 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101892 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101892 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101892 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 101892 - rock_flintless With Inv:108141 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120019 - rocks	
+OnActionSuccess - Action: Pick up 120021 - rocks	
+OnActionSuccess - Action: Pick up 120023 - rocks	
+OnActionSuccess - Action: Pick up 120022 - rocks	
+OnActionSuccess - Action: Pick up 120020 - rocks	
+OnActionSuccess - Action: Mine 101889 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101889 - rock_flintless With Inv:108141 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101889 - rock_flintless With Inv:108141 - pickaxe	
+OnActionSuccess - Action: Pick 101598 - grass	
+OnActionSuccess - Action: Build nil Recipe:campfire	
+OnActionSuccess - Action: Cook 120106 - campfire With Inv:107240 - meat	
+OnActionSuccess - Action: Eat 120109 - cookedmeat	
+OnActionSuccess - Action: Cook 120106 - campfire With Inv:116029 - acorn(LIMBO)	
+OnActionSuccess - Action: Cook 120106 - campfire With Inv:116029 - acorn(LIMBO)	
+OnActionSuccess - Action: Cook 120106 - campfire With Inv:116029 - acorn(LIMBO)	
+OnActionSuccess - Action: Cook 120106 - campfire With Inv:116029 - acorn	
+OnActionSuccess - Action: Eat 120121 - acorn_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 120121 - acorn_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 120121 - acorn_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 120121 - acorn_cooked	
+OnActionSuccess - Action: Add Fuel 120106 - campfire With Inv:106154 - log(LIMBO)	
+OnActionSuccess - Action: Pick 101967 - cactus	
+OnActionSuccess - Action: Pick 114243 - flower	
+OnActionSuccess - Action: Eat 120193 - petals	
+OnActionSuccess - Action: Pick 101951 - cactus	
+OnActionSuccess - Action: Pick 101952 - cactus	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:pickaxe	
+OnActionSuccess - Action: Mine 101885 - rock_flintless With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101885 - rock_flintless With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101885 - rock_flintless With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101885 - rock_flintless With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101885 - rock_flintless With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101885 - rock_flintless With Inv:120230 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 101885 - rock_flintless With Inv:120230 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120247 - rocks	
+OnActionSuccess - Action: Pick up 120249 - rocks	
+OnActionSuccess - Action: Pick up 120248 - rocks	
+OnActionSuccess - Action: Pick up 120246 - rocks	
+OnActionSuccess - Action: Pick up 120245 - rocks	
+OnActionSuccess - Action: Pick 101961 - cactus	
+OnActionSuccess - Action: Mine 102102 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102102 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102102 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102102 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102102 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102102 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102102 - rock1 With Inv:120230 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120275 - flint	
+OnActionSuccess - Action: Pick up 120273 - rocks	
+OnActionSuccess - Action: Pick up 120276 - flint	
+OnActionSuccess - Action: Pick up 120272 - rocks	
+OnActionSuccess - Action: Pick up 120271 - rocks	
+OnActionSuccess - Action: Mine 102783 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102783 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102783 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102783 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102783 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102783 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102783 - rock2 With Inv:120230 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120296 - flint	
+OnActionSuccess - Action: Pick up 120293 - rocks	
+OnActionSuccess - Action: Pick up 120291 - rocks	
+OnActionSuccess - Action: Pick up 120294 - goldnugget(LIMBO)	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:researchlab	
+OnActionSuccess - Action: Build nil Recipe:rope	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:spear	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:backpack	
+OnActionSuccess - Action: Build nil Recipe:cutstone	
+OnActionSuccess - Action: Build nil Recipe:cutstone	
+OnActionSuccess - Action: Build nil Recipe:cutstone	
+OnActionFailed - Action: Build 100030 - wilson Recipe:cookpot failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120349 - backpack(LIMBO)	
+OnActionSuccess - Action: Pick up 120355 - cutstone(LIMBO)	
+OnActionSuccess - Action: Pick up 120367 - cutstone	
+OnActionSuccess - Action: Pick up 102750 - armorwood(LIMBO)	
+OnActionSuccess - Action: Pick up 120295 - flint	
+OnActionSuccess - Action: Pick up 120379 - cutstone	
+OnActionSuccess - Action: Pick up 120292 - rocks	
+Stale Component Reference: GUID 120503, @C:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/widgets/text.lua:55
+OnActionSuccess - Action: Mine 102780 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102780 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102780 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102780 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102780 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102780 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102780 - rock2 With Inv:120230 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120637 - rocks	
+OnActionSuccess - Action: Pick up 120639 - goldnugget(LIMBO)	
+OnActionSuccess - Action: Pick up 120640 - flint	
+OnActionSuccess - Action: Pick up 120636 - rocks	
+OnActionSuccess - Action: Pick up 120641 - flint	
+OnActionSuccess - Action: Pick up 120638 - rocks	
+OnActionSuccess - Action: Mine 102104 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102104 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102104 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102104 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102104 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102104 - rock1 With Inv:120230 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102104 - rock1 With Inv:120230 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120671 - rocks	
+OnActionSuccess - Action: Pick up 120669 - rocks	
+OnActionSuccess - Action: Pick up 120670 - rocks	
+OnActionSuccess - Action: Pick up 120673 - flint	
+OnActionSuccess - Action: Mine 102781 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102781 - rock2 With Inv:120230 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102781 - rock2 With Inv:120230 - pickaxe	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:pickaxe	
+OnActionSuccess - Action: Mine 102781 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102781 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102781 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102781 - rock2 With Inv:120689 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120699 - rocks	
+OnActionSuccess - Action: Pick up 120701 - rocks	
+OnActionSuccess - Action: Pick up 120700 - rocks	
+OnActionSuccess - Action: Pick up 120702 - goldnugget	
+OnActionSuccess - Action: Pick up 120703 - flint	
+OnActionSuccess - Action: Pick up 120704 - flint	
+OnActionSuccess - Action: Mine 102784 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102784 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102784 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102784 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102784 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102784 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102784 - rock2 With Inv:120689 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120722 - rocks	
+OnActionSuccess - Action: Pick up 120721 - rocks	
+OnActionSuccess - Action: Pick up 120720 - rocks	
+OnActionSuccess - Action: Pick up 120723 - goldnugget	
+OnActionSuccess - Action: Pick up 120724 - flint	
+OnActionSuccess - Action: Pick up 120725 - goldnugget	
+OnActionSuccess - Action: Pick up 120726 - flint	
+OnActionSuccess - Action: Mine 101898 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101898 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101898 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101898 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101898 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101898 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 101898 - rock_flintless With Inv:120689 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120747 - rocks	
+OnActionSuccess - Action: Pick up 120746 - rocks	
+OnActionSuccess - Action: Pick up 120743 - rocks	
+OnActionSuccess - Action: Pick up 120745 - rocks	
+OnActionSuccess - Action: Pick up 120744 - rocks	
+OnActionSuccess - Action: Mine 101897 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101897 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101897 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101897 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101897 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 101897 - rock_flintless With Inv:120689 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 101897 - rock_flintless With Inv:120689 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120764 - rocks	
+OnActionSuccess - Action: Pick up 120765 - rocks	
+OnActionSuccess - Action: Mine 102103 - rock1 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102103 - rock1 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102103 - rock1 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102103 - rock1 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102103 - rock1 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102103 - rock1 With Inv:120689 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102103 - rock1 With Inv:120689 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120780 - flint	
+OnActionSuccess - Action: Pick up 120781 - flint	
+OnActionSuccess - Action: Mine 102779 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102779 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102779 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102779 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102779 - rock2 With Inv:120689 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102779 - rock2 With Inv:120689 - pickaxe	
+OnActionSuccess - Action: Pick up 120798 - flint	
+OnActionSuccess - Action: Pick up 120796 - goldnugget	
+OnActionSuccess - Action: Pick up 120797 - flint	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:pickaxe	
+OnActionSuccess - Action: Mine 102777 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102777 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102777 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102777 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102777 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102777 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102777 - rock2 With Inv:120809 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120828 - goldnugget	
+OnActionSuccess - Action: Pick up 120827 - flint	
+OnActionSuccess - Action: Pick up 120826 - goldnugget	
+OnActionSuccess - Action: Mine 102782 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102782 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102782 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102782 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102782 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102782 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102782 - rock2 With Inv:120809 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120844 - flint	
+OnActionSuccess - Action: Pick up 120843 - goldnugget	
+OnActionSuccess - Action: Pick up 120845 - flint	
+OnActionSuccess - Action: Mine 102778 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102778 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102778 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102778 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102778 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102778 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102778 - rock2 With Inv:120809 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120862 - flint	
+OnActionSuccess - Action: Pick up 120860 - goldnugget	
+OnActionSuccess - Action: Pick up 120861 - flint	
+OnActionSuccess - Action: Mine 102776 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102776 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102776 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102776 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102776 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102776 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102776 - rock2 With Inv:120809 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120878 - flint	
+OnActionSuccess - Action: Pick up 120877 - goldnugget	
+OnActionSuccess - Action: Pick 101965 - cactus	
+OnActionSuccess - Action: Pick 101964 - cactus	
+OnActionSuccess - Action: Mine 102797 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102797 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102797 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102797 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102797 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102797 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102797 - rock2 With Inv:120809 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120904 - flint	
+OnActionSuccess - Action: Pick up 120903 - goldnugget	
+OnActionSuccess - Action: Mine 102793 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102793 - rock2 With Inv:120809 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102793 - rock2 With Inv:120809 - pickaxe	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:pickaxe	
+OnActionSuccess - Action: Mine 102793 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102793 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102793 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102793 - rock2 With Inv:120918 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120931 - goldnugget	
+OnActionSuccess - Action: Pick up 120932 - flint	
+OnActionSuccess - Action: Mine 102787 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102787 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102787 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102787 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102787 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102787 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102787 - rock2 With Inv:120918 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120947 - goldnugget	
+OnActionSuccess - Action: Pick up 120948 - flint	
+OnActionSuccess - Action: Mine 102106 - rock1 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102106 - rock1 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102106 - rock1 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102106 - rock1 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102106 - rock1 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102106 - rock1 With Inv:120918 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102106 - rock1 With Inv:120918 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120964 - flint	
+OnActionSuccess - Action: Pick up 120965 - flint	
+OnActionSuccess - Action: Mine 102788 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102788 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102788 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102788 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102788 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102788 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102788 - rock2 With Inv:120918 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120982 - flint	
+OnActionSuccess - Action: Pick up 120981 - goldnugget	
+OnActionSuccess - Action: Mine 102789 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102789 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102789 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102789 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102789 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102789 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102789 - rock2 With Inv:120918 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 120998 - goldnugget	
+OnActionSuccess - Action: Pick up 120996 - goldnugget	
+OnActionSuccess - Action: Pick up 120999 - flint	
+OnActionSuccess - Action: Pick up 120997 - flint	
+OnActionSuccess - Action: Mine 102791 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102791 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102791 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102791 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102791 - rock2 With Inv:120918 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102791 - rock2 With Inv:120918 - pickaxe	
+OnActionSuccess - Action: Pick up 121017 - goldnugget	
+OnActionSuccess - Action: Pick up 121018 - flint	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:pickaxe	
+OnActionSuccess - Action: Mine 102798 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102798 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102798 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102798 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102798 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102798 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102798 - rock2 With Inv:121029 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 121047 - goldnugget	
+OnActionSuccess - Action: Pick up 121048 - flint	
+OnActionSuccess - Action: Mine 102792 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102792 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102792 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102792 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102792 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102792 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102792 - rock2 With Inv:121029 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 121063 - goldnugget	
+OnActionSuccess - Action: Pick up 121064 - flint	
+OnActionSuccess - Action: Mine 102786 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102786 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102786 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102786 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102786 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102786 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102786 - rock2 With Inv:121029 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 121082 - flint	
+OnActionSuccess - Action: Pick up 121080 - goldnugget	
+OnActionSuccess - Action: Pick up 121081 - flint	
+OnActionSuccess - Action: Mine 102785 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102785 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102785 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102785 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102785 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102785 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102785 - rock2 With Inv:121029 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 121098 - flint	
+OnActionSuccess - Action: Mine 102105 - rock1 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102105 - rock1 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102105 - rock1 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102105 - rock1 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102105 - rock1 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102105 - rock1 With Inv:121029 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102105 - rock1 With Inv:121029 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 121113 - flint	
+OnActionSuccess - Action: Mine 102790 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102790 - rock2 With Inv:121029 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102790 - rock2 With Inv:121029 - pickaxe	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:pickaxe	
+OnActionSuccess - Action: Mine 102790 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102790 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102790 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102790 - rock2 With Inv:121126 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 121142 - flint	
+OnActionSuccess - Action: Pick up 121141 - flint	
+OnActionSuccess - Action: Mine 102794 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102794 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102794 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102794 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102794 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102794 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102794 - rock2 With Inv:121126 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 121158 - flint	
+OnActionSuccess - Action: Mine 102796 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102796 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102796 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102796 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102796 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102796 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102796 - rock2 With Inv:121126 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 121179 - flint	
+OnActionSuccess - Action: Pick up 121177 - flint	
+OnActionSuccess - Action: Mine 102795 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102795 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102795 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102795 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102795 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102795 - rock2 With Inv:121126 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102795 - rock2 With Inv:121126 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 121196 - flint	
+OnActionSuccess - Action: Pick 101600 - grass	
+OnActionSuccess - Action: Pick 103128 - marsh_bush	
+OnActionSuccess - Action: Pick 103122 - marsh_bush	
+OnActionSuccess - Action: Pick 103123 - marsh_bush	
+OnActionSuccess - Action: Pick 101949 - cactus	
+OnActionSuccess - Action: Pick 101950 - cactus	
+OnActionSuccess - Action: Pick 101954 - cactus	
+OnActionSuccess - Action: Pick 101955 - cactus	
+OnActionSuccess - Action: Pick 101953 - cactus	
+OnActionSuccess - Action: Pick 103120 - marsh_bush	
+OnActionSuccess - Action: Pick 101596 - grass	
+OnActionSuccess - Action: Pick 103119 - marsh_bush	
+OnActionSuccess - Action: Build nil Recipe:campfire	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat(LIMBO)	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat(LIMBO)	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat(LIMBO)	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat(LIMBO)	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat(LIMBO)	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat(LIMBO)	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat(LIMBO)	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat(LIMBO)	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat(LIMBO)	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat(LIMBO)	
+OnActionSuccess - Action: Cook 121275 - campfire With Inv:120179 - cactus_meat	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked(LIMBO)	
+OnActionSuccess - Action: Add Fuel 121275 - campfire With Inv:106154 - log(LIMBO)	
+OnActionSuccess - Action: Pick 101396 - grass	
+OnActionSuccess - Action: Pick 101390 - grass	
+OnActionSuccess - Action: Pick 101392 - grass	
+OnActionSuccess - Action: Pick 101393 - grass	
+OnActionSuccess - Action: Chop 103308 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103308 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103308 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103308 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103308 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick 101273 - grass	
+OnActionSuccess - Action: Pick up 108197 - poop	
+OnActionSuccess - Action: Pick up 114746 - poop	
+OnActionSuccess - Action: Pick 101399 - grass	
+OnActionSuccess - Action: Pick 101397 - grass	
+OnActionSuccess - Action: Pick up 109911 - poop	
+OnActionSuccess - Action: Pick up 108206 - poop	
+OnActionSuccess - Action: Pick up 111759 - poop	
+OnActionSuccess - Action: Pick 101367 - grass	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103384 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 121449 - log	
+OnActionSuccess - Action: Pick up 121450 - log	
+OnActionSuccess - Action: Pick up 121448 - log	
+OnActionSuccess - Action: Pick up 108075 - log	
+OnActionSuccess - Action: Pick 101555 - grass	
+OnActionSuccess - Action: Pick 101556 - grass	
+OnActionSuccess - Action: Pick 101553 - grass	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:106416 - axe	
+OnActionSuccess - Action: Pick 101554 - grass	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:axe	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103386 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 121525 - log	
+OnActionSuccess - Action: Pick up 121524 - log	
+OnActionSuccess - Action: Pick up 121523 - log	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Chop 103387 - evergreen With Inv:121498 - axe(LIMBO)	
+OnActionSuccess - Action: Pick up 121540 - log	
+OnActionSuccess - Action: Pick up 121541 - log	
+OnActionSuccess - Action: Pick up 121539 - log	
+OnActionSuccess - Action: Pick 103067 - berrybush	
+OnActionSuccess - Action: Pick 101557 - grass	
+OnActionSuccess - Action: Pick 101368 - grass	
+OnActionSuccess - Action: Pick 101333 - grass	
+OnActionSuccess - Action: Pick 102341 - sapling	
+OnActionSuccess - Action: Pick 102340 - sapling	
+OnActionSuccess - Action: Pick 102013 - carrot_planted	
+OnActionSuccess - Action: Pick 102339 - sapling	
+OnActionSuccess - Action: Pick 102015 - carrot_planted	
+OnActionSuccess - Action: Pick 102342 - sapling	
+OnActionSuccess - Action: Pick 103066 - berrybush	
+OnActionSuccess - Action: Pick 103081 - berrybush	
+OnActionSuccess - Action: Pick 102338 - sapling	
+OnActionSuccess - Action: Pick 102014 - carrot_planted	
+OnActionSuccess - Action: Pick 102344 - sapling	
+OnActionSuccess - Action: Pick 102343 - sapling	
+OnActionSuccess - Action: Pick 102336 - sapling	
+OnActionSuccess - Action: Pick 103065 - berrybush	
+OnActionSuccess - Action: Pick up 104892 - flint	
+OnActionSuccess - Action: Pick 103082 - berrybush	
+OnActionSuccess - Action: Pick 102527 - sapling	
+OnActionSuccess - Action: Pick 102528 - sapling	
+OnActionSuccess - Action: Pick 102530 - sapling	
+OnActionSuccess - Action: Pick 102529 - sapling	
+OnActionSuccess - Action: Pick 102531 - sapling	
+OnActionSuccess - Action: Mine 102128 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102128 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102128 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102128 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102128 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102128 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 102128 - rock1 With Inv:121126 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 121846 - flint	
+OnActionSuccess - Action: Pick up 121847 - flint	
+OnActionSuccess - Action: Mine 102129 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102129 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102129 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102129 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102129 - rock1 With Inv:121126 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 102129 - rock1 With Inv:121126 - pickaxe	
+OnActionSuccess - Action: Pick up 121868 - flint	
+OnActionSuccess - Action: Pick up 121867 - flint	
+OnActionSuccess - Action: Pick 102541 - sapling	
+OnActionSuccess - Action: Pick 102540 - sapling	
+OnActionSuccess - Action: Pick 102519 - sapling	
+OnActionSuccess - Action: Build 100030 - wilson Recipe:pickaxe	
+OnActionSuccess - Action: Mine 104514 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104514 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104514 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104514 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104514 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104514 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104514 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104514 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 104514 - marbletree With Inv:121976 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 122010 - marble(LIMBO)	
+OnActionSuccess - Action: Mine 104513 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104513 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104513 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104513 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104513 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104513 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104513 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionSuccess - Action: Mine 104513 - marbletree With Inv:121976 - pickaxe(LIMBO)	
+OnActionFailed - Action: Mine 104513 - marbletree With Inv:121976 - pickaxe(LIMBO) failed. Reason: [Unknown]	
+OnActionSuccess - Action: Pick up 122041 - marble	
+OnActionSuccess - Action: Pick up 122040 - marble	
+OnActionSuccess - Action: Pick 104561 - green_mushroom	
+OnActionSuccess - Action: Pick 102543 - sapling	
+OnActionSuccess - Action: Pick 102544 - sapling	
+OnActionSuccess - Action: Pick 102526 - sapling	
+OnActionSuccess - Action: Build nil Recipe:campfire	
+OnActionSuccess - Action: Cook 122544 - campfire With Inv:121554 - berries(LIMBO)	
+OnActionSuccess - Action: Cook 122544 - campfire With Inv:121554 - berries(LIMBO)	
+OnActionSuccess - Action: Cook 122544 - campfire With Inv:121554 - berries(LIMBO)	
+OnActionSuccess - Action: Cook 122544 - campfire With Inv:121554 - berries(LIMBO)	
+OnActionSuccess - Action: Cook 122544 - campfire With Inv:121554 - berries	
+OnActionSuccess - Action: Cook 122544 - campfire With Inv:121588 - carrot(LIMBO)	
+OnActionSuccess - Action: Cook 122544 - campfire With Inv:121588 - carrot(LIMBO)	
+OnActionSuccess - Action: Cook 122544 - campfire With Inv:121588 - carrot	
+OnActionSuccess - Action: Cook 122544 - campfire With Inv:122090 - green_cap	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 121278 - cactus_meat_cooked	
+OnActionSuccess - Action: Eat 122547 - berries_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 122547 - berries_cooked(LIMBO)	
+OnActionSuccess - Action: Eat 122547 - berries_cooked(LIMBO)	
+OnActionSuccess - Action: Add Fuel 122544 - campfire With Inv:106154 - log(LIMBO)	
+OnActionSuccess - Action: Pick 101966 - cactus	
+OnActionSuccess - Action: Pick 101946 - cactus	
+OnActionSuccess - Action: Pick 101585 - grass	
+OnActionSuccess - Action: Pick 101583 - grass	
+OnActionSuccess - Action: Pick 101584 - grass	

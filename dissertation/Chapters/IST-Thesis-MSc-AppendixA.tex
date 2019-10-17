@@ -1,0 +1,87 @@
+% #############################################################################
+% This is Appendix A
+% !TEX root = ../main.tex
+% #############################################################################
+\chapter{List of Actions}
+\label{appendix:A}
+
+\begin{table}[htb]
+	\centering
+    \caption{The first part of the available actions.}
+    \label{tab:actions-1}
+    {\footnotesize
+    \begin{longtable}{ | p{0.35\linewidth} | p{0.18\linewidth} | p{0.4\linewidth} | }
+        \hline 
+        \textbf{Actions} & \textbf{Restrictions} & \textbf{Description} \\ \hline \hline
+		\texttt{Action(ACTIVATE, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Interact with some game elements \\ \hline 
+		\texttt{Action(ADDFUEL, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Add fuel to fueled entities (campfire, firesupressor) \\ \hline 
+		\texttt{Action(ATTACK, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Attack other entities \\ \hline 
+		\texttt{Action(BAIT, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Put bait on traps \\ \hline 
+		\texttt{Action(BUILD, -, [x], [z], [recipe]) = } & \texttt{{([x], [z]): position, recipe: recipe's name}} & Depending on weather you are crafting an item or placing a structure you'll need to pass a value to the *(x, z)* parameters \\ \hline 
+		\texttt{Action(CASTSPELL, [invobject], -, -, -) = [target]} & \texttt{{invobject:GUID, target: GUID}} & Cast magic item at *target*. If *invobject* is not specified, the equipped item is used. \\ \hline 
+		\texttt{Action(CHECKTRAP, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Check if the given trap has caught anything \\ \hline 
+		\texttt{Action(CHOP, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Chop trees, an axe must be equipped in order to use \\ \hline 
+		\texttt{Action(COMBINESTACK, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Combines the given *invobject* into *target* if it is the same prefab and target is not full \\ \hline 
+		\texttt{Action(COOK, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Cook *invobject* at the specified *target* \\ \hline 
+		\texttt{Action(DEPLOY, [invobject], [x], [z], -) = -} & \texttt{{invobject: GUID, ([x], [z]): position}} & Place ground tile, walls, fences, and gates \\ \hline 
+		\texttt{Action(DIG, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Dig grass, twigs, rabbit holes, graves, and others from the ground \\ \hline 
+		\texttt{Action(DROP, [invobject], [x], [Z], -) = -} & \texttt{{invobject: GUID, ([x], [z]): position}} & Drop held item to a spot in the ground \\ \hline 
+		\texttt{Action(DRY, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Dry meat at racks \\ \hline 
+		\texttt{Action(EAT, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Eat food \\ \hline 
+		\texttt{Action(EQUIP, [invobject], -, -, -) = -} & \texttt{{invobject: GUID}} & Equip an item that is in the character's inventory \\ \hline 
+		\texttt{Action(EXTINGUISH, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Use the *invobject* to extinguish the burning *target* \\ \hline 
+		\texttt{Action(FEED, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Feed the *invobject* to the *target* \\ \hline 
+		\texttt{Action(FEEDPLAYER, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Feed the player (*target*) with *invobject* (might work the same has the above) \\ \hline 
+		\texttt{Action(FERTILIZE, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Use *invobject* to Fertilize the *target* \\ \hline 
+		\texttt{Action(FILL, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID}, target:GUID} & Fill the mosquito sack (*invobject*) at a pond (*target*) \\ \hline 
+		\texttt{Action(FISH, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Use a fishing rod (must be equipped) to fish in a pond (*target*) \\ \hline 
+		\texttt{Action(GIVE, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Give *invobject* to *target* \\ \hline 
+		\texttt{Action(GIVEALLTOPLAYER, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Give all of *invobject* to player (*target*) \\ \hline 
+		\texttt{Action(GIVETOPLAYER, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Give *invobject* to player (*target*) (Not sure on the difference of these three actions) \\ \hline 
+		\texttt{Action(HAMMER, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Hammer down built structures (*target*) \\ \hline 
+		\texttt{Action(HARVEST, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Harvest crops and cookpots \\ \hline 
+		\texttt{Action(HEAL, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Use *invobject* to heal the *target* \\ \hline 
+	\end{longtable}
+    }
+\end{table}
+
+\begin{table}[htb]
+	\centering
+    \caption{The second part of the available actions.}
+    \label{tab:actions-2}
+    {\footnotesize
+    \begin{longtable}{ | p{0.35\linewidth} | p{0.18\linewidth} | p{0.4\linewidth} | }
+        \hline 
+        \textbf{Actions} & \textbf{Restrictions} & \textbf{Description} \\ \hline \hline
+		\texttt{Action(JUMPIN, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Jump into wormhole (*target*) \\ \hline 
+		\texttt{Action(LIGHT, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Set the *target* on fire (must have a torch equipped) \\ \hline 
+		\texttt{Action(LOOKAT, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Face the *target* \\ \hline 
+		\texttt{Action(MANUALEXTINGUISH, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Use your hands to try and extinguish fires \\ \hline 
+		\texttt{Action(MINE, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Mine rocks, sinkholes, glassiers, etc (must have a pickaxe equipped) \\ \hline 
+		\texttt{Action(MOUNT, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Mount a saddled mount (*target*) \\ \hline 
+		\texttt{Action(MURDER, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Murder targeted inocent creature (e.g. rabbits) while in inventory \\ \hline 
+		\texttt{Action(NET, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Use nets to catch bugs (*target*) \\ \hline 
+		\texttt{Action(PICK, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Pick the targeted resource (e.g. grass, saplings, berry bushes, etc) \\ \hline 
+		\texttt{Action(PICKUP, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Pick up items from the ground (e.g. rocks, twigs, cutgrass, etc.) \\ \hline 
+		\texttt{Action(PLANT, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Plant *invobject* (seeds) into *target* \\ \hline 
+		\texttt{Action(REEL, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Reel in the fish while fishing (the target is the pond) \\ \hline 
+		\texttt{Action(RESETMINE, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Reset mines like the tooth trap \\ \hline 
+		\texttt{Action(RUMMAGE, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Rummage about in a container \\ \hline 
+		\texttt{Action(SADDLE, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} &  Use *invobject* to saddle up the *target* \\ \hline 
+		\texttt{Action(SEW, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID}, target: GUID} & Use *invobject* to sew the *target* \\ \hline 
+		\texttt{Action(SHAVE, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Use the *invobject* to shave the *target* \\ \hline 
+		\texttt{Action(SLEEPIN, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Sleep in the *target* (tent or sleeping bag) \\ \hline 
+		\texttt{Action(SMOTHER, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Smother the smoking *target* (stuff about to burst into flames) \\ \hline 
+		\texttt{Action(STORE, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Store the *invobject* into the *target* \\ \hline 
+		\texttt{Action(TAKEITEM, [], -, -, -) = [target]} & \texttt{{}} & |take brid from cage \\ \hline 
+		\texttt{Action(TERRAFORM, [invobject], [x], [z], -) = -} & \texttt{{invobject: GUID, ([x], [z]): position}} & Use the *invobject* to terraform the *position* \\ \hline 
+		\texttt{Action(TURNOFF, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Turn the *target* off (e.g. firesupressor) \\ \hline 
+		\texttt{Action(TURNON, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Turn the *target* on \\ \hline 
+		\texttt{Action(UNEQUIP, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Unequip *target* \\ \hline 
+		\texttt{Action(UNSADDLE, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Remove the saddle from the *target* \\ \hline 
+		\texttt{Action(UPGRADE, [invobject], -, -, -) = [target]} & \texttt{{invobject: GUID, target: GUID}} & Use *invobject to upgrade the *target* (e.g. upgrade a wall) \\ \hline 
+		\texttt{Action(WANDER, -, -, -, -) = -} & \texttt{{}} & This is a the behaviour of wandering about the world, not really an action \\ \hline 
+		\texttt{Action(WALKTO, -, -, -, -) = [target]} & \texttt{{target: GUID}} & Walk up to the *target* \\ \hline 
+	\end{longtable}
+    }
+\end{table}

@@ -1,0 +1,87 @@
+% #############################################################################
+% This is Chapter 7
+% !TEX root = ../main.tex
+% #############################################################################
+% Change the Name of the Chapter i the following line
+\fancychapter{Conclusion}
+\cleardoublepage
+% The following line allows to ref this chapter
+\label{chapter:conclusion}
+
+\noindent In this dissertation we've argued how in video games that are heavily dependent on interactions with \acp{NPC}, many of them are not socially aware and behave in a non-believable manner.
+
+Firstly, we have looked at how the video game industry is currently making \acp{NPC} and concluded that the used techniques do not involve current frameworks and architectures for social agents.
+The use of Behaviour Trees and Finite State Machines, the most commonly used techniques in today's industry, provide skilled game designers with the ability to create somewhat complex behaviour.
+However, these techniques can quickly become an authoring burden.
+Having to manage hundreds of behaviour nodes or states is no simple task.
+Furthermore, grasping the context of social interaction will often be left out of the \ac{NPC}'s behaviour.
+
+Focusing on survival games, we've noticed how these games will often lack the presence of \acp{NPC}, and when they are present, they can break the player's immersion by not being subject to the same rules as the players.
+This, allied to the fact that many survival games rely on multiplayer interaction in order to keep interesting, has motivated us to create a platform that allows developers to create believable \acp{NPC} with interesting behaviour for survival games.
+
+To achieve this, we had to explore what other platforms are currently available to develop \acp{NPC}. To the best of our knowledge there are no publicly available platforms that allow developers to create \acp{NPC} for survival games.
+We've then decided to look into agent creation platforms and explored tools like \ac{JADE}, NetLogo, and PsychSim.
+Although they represent good options for agent engineering and simulations they do not provide us with the necessary tools to solve our problem, the creation of believable \acp{NPC} in survival games.
+
+In order to make believable \acp{NPC} we need them to possess certain human-like traits: social awareness, active goal pursuit, and reactivity, for example.
+As such, the next step was to look at agency models that concern themselves with believability and social interaction without forfeiting reasoning and planning.
+Versu, \ac{CiF}, and \ac{FAtiMA}, are all fully-fledged agency models, but we decided to use \ac{FAtiMA} due to its versatility and decision making capabilities.
+By incorporating \ac{FAtiMA}'s capabilities into a commercial survival game we've been able to realize a platform that allows developers to create \acp{NPC} with social ability and planning capabilities.
+
+We've chosen Don't Starve Together for its multiplayer nature, its ability to configure the world we play in, the possibility of including our own modifications to the game natively, and for its sanity mechanic.
+A novelty among its peers, the sanity mechanic represents the character's mental health, another component that enhances the player's immersion by giving the character a human trait.
+
+Then we implemented the \textit{mod}, FAtiMA-DST, and the console application, FAtiMA-Server, that allow us to run \ac{AI} powered \acp{NPC} in \ac{DST}.
+As an example and proof of concept, we've also created Walter, a model based \ac{NPC} that was published in the Steam Workshop.
+
+Additionally, the platform has been successfully used to implement a planning agent using the \ac{MCTS} algorithm.
+By creating a new Dynamic Property, the developers were able to create an agent using \ac{FAtiMA} and run it in \ac{DST}.
+
+In order to evaluate our work, we've compared our example agent, Walter, with Artificial Wilson, an agent created using the in-game's behaviour trees by an anonymous \textit{modder}.
+Although Walter's performance is poor when compared to Artificial Wilson, the discrepancy can be justified due to the difference in the size of both implementations.
+While Walter counts with nineteen rules of decision, Artificial Wilson counts over seventy nodes in its behaviour tree.
+
+This dissertation provides the ground work for future developments in the creation of \acp{NPC} for survival games, in particular for Don't Starve Together.
+It is our belief that with an equal effort, Walter's behaviour would at least match the performance of Artificial Wilson with the added value of social awareness, emotional responses, and active goal pursuit.
+
+\section{Future Work}
+
+\noindent As this work stands, it allows the creation of \acp{NPC} for Don't Starve Together.
+However, the platform has great room for improvement.
+
+\begin{itemize}
+\item Two-way communication.
+Currently, the platform allows the \ac{NPC} to talk and make remarks on the world.
+However, the player is not able to respond and talk back to the \ac{NPC}.
+Either by allowing chat responses or by adding an additional component to the game's interface, the interaction with the \ac{NPC} could be greatly improved.
+
+\item Add more beliefs.
+Expanding the character's available beliefs will enable us to create more complex behaviour.
+However, only by adding behaviour to \acp{NPC}, will we understand which beliefs are effectively necessary.
+
+\item Improve Walter.
+As a proof of concept Walter plays its role as expected.
+Nonetheless, Walter is a simple model based agent that does not make full use of \ac{FAtiMA}'s capabilities.
+Although the framework is fully prepared to support \ac{FAtiMA}, the character does not benefit from all the capabilities \ac{FAtiMA} might grant to a virtual agent. By incorporating additional assets into the \ac{RPC}'s definition, like the Emotional Appraisal Asset or the Social Importance Asst, Walter could be further improved.
+
+\item Reduce the burden of running FAtiMA's characters in \ac{DST}.
+As it stands, players have to run a console application in parallel with the game for the platform to work properly.
+It is our belief that by removing this requirement, more players would be able to play with \acp{NPC} that make use of our platform.
+Ideally, this would be done by incorporating \ac{FAtiMA}'s \ac{DLL}s into the embedded Lua interpreter that \ac{DST} comes with.
+However, this would require some sort of collaboration with the game developers, Klei Entertainment.
+Alternatively, a public server could be set up to host the FAtiMA-Server component.
+
+\item Add an additional layer of decision.
+Players can express feelings through the use of gestures.
+Gestures are animations that represent different states of mind the player may be feeling (some of the available gestures are ``annoyed", ``bye", ``angry", ``joy", ``dance", and ``sad").
+The addition of this capability to the platform would be a great improvement as far as believability goes for created \acp{NPC}.
+
+\item Add more composed actions to the platform.
+Currently the only composed behaviour incorporated in the platform is the wander behaviour.
+The addition of combat behaviour, utilization of chests, structure placement helpers, and others, would greatly improve an \ac{NPC}'s capabilities.
+
+\item Different \acp{NPC} running different \acp{RPC}.
+For each \ac{NPC} there should be an ability to specify the \ac{RPC} to be loaded.
+This would enable the creation of richer scenarios by using characters with different characteristics, goals, reactions, dialogues, among others.
+
+\end{itemize}
